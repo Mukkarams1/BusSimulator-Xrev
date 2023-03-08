@@ -16,6 +16,7 @@ public class LevelsDataManager : GenericSingletonClass<LevelsDataManager>
     public int starWinningTime { get; private set; } = 0;
     public int starWinningSpeed { get; private set; } = 0;
     public int starWon { get; set; }
+    public int AllowedHits { get; set; }
     public gameModesEnum currentGameMode { get; private set; }
     int currentBusModelIndex;
     public GameObject currentLevelObject;
@@ -99,6 +100,7 @@ public class LevelsDataManager : GenericSingletonClass<LevelsDataManager>
         starWinningTime = currentlevelData.starWinTimer;
         starWinningSpeed = currentlevelData.hitSpeed;
         starWon = currentlevelData.starWon;
+        AllowedHits = currentlevelData.allowedHits;
         EventManager.LoadNewLevel();
     }
     void InstantiateBus()
