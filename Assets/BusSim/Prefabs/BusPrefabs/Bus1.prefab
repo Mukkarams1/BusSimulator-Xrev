@@ -488,8 +488,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.5925837, y: 2.5896964, z: 13.1242485}
-  m_Center: {x: -0.510726, y: 2.2198436, z: -0.9865875}
+  m_Size: {x: 2.2715862, y: 2.3494358, z: 11.784491}
+  m_Center: {x: 0.030769467, y: 2.0997128, z: -0.31670856}
 --- !u!1 &673920312507280583
 GameObject:
   m_ObjectHideFlags: 0
@@ -896,7 +896,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.54999876, y: 1.3099995, z: 4.019013}
+  m_ConnectedAnchor: {x: -0.5499988, y: 1.3099995, z: 4.019013}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 0, z: 0}
   m_XMotion: 1
@@ -992,6 +992,7 @@ GameObject:
   - component: {fileID: 859809402377447909}
   - component: {fileID: 859809402377447908}
   - component: {fileID: 2003317925720983939}
+  - component: {fileID: 1029520889784907206}
   m_Layer: 8
   m_Name: Bus1
   m_TagString: Player
@@ -1427,6 +1428,19 @@ MonoBehaviour:
   currentRoute: []
   currentState: 0
   controller: {fileID: 859809402377447908}
+--- !u!65 &1029520889784907206
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859809402377447911}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.2715862, y: 2.3494358, z: 11.784491}
+  m_Center: {x: 0.030769467, y: 1.13, z: -1.11}
 --- !u!1 &859809402462009430
 GameObject:
   m_ObjectHideFlags: 0

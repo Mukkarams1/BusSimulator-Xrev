@@ -15,7 +15,6 @@ public class Bus : MonoBehaviour
     public BusState currentState;
     public RCC_CarControllerV3 controller;
 
-
     private void Start()
     {
         controller = FindObjectOfType<RCC_CarControllerV3>();

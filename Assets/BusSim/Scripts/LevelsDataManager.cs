@@ -92,12 +92,13 @@ public class LevelsDataManager : GenericSingletonClass<LevelsDataManager>
     }
     void LoadLevel()
     {
-        InstantiateLevel(getLevelData(currentGameMode, currentLevel).LevelDataGameObject);
+        var currentlevelData = getLevelData(currentGameMode, currentLevel);
+        InstantiateLevel(currentlevelData.LevelDataGameObject);
         InstantiateBus();
-        totalStopsInLevel = levelData[currentLevel - 1].LevelDataGameObject.transform.Find("BusStops").transform.childCount;
-        starWinningTime = levelData[currentLevel - 1].starWinTimer;
-        starWinningSpeed = levelData[currentLevel - 1].hitSpeed;
-        starWon = levelData[currentLevel - 1].starWon;
+        totalStopsInLevel = currentLevelObject.transform.Find("BusStops").transform.childCount;
+        starWinningTime = currentlevelData.starWinTimer;
+        starWinningSpeed = currentlevelData.hitSpeed;
+        starWon = currentlevelData.starWon;
         EventManager.LoadNewLevel();
     }
     void InstantiateBus()

@@ -1721,6 +1721,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelsDataManager
       objectReference: {fileID: 0}
+    - target: {fileID: 5032066863784493291, guid: 241dded2d00b4794785554b4c806e5ce, type: 3}
+      propertyPath: levelData.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5032066863784493291, guid: 241dded2d00b4794785554b4c806e5ce, type: 3}
+      propertyPath: levelData.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 2d1c6b108bff19f4680de9963e735839, type: 2}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 241dded2d00b4794785554b4c806e5ce, type: 3}
