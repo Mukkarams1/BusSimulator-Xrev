@@ -31,6 +31,9 @@ public class ObstacleModeManager : MonoBehaviour
     bool isLevelComplete;
 
     public RCC_CarControllerV3 carController;
+
+    private float delay_in_Collosion_Timer;
+
     private void Start()
     {
      timerText.gameObject.SetActive(false);
@@ -75,11 +78,16 @@ public class ObstacleModeManager : MonoBehaviour
         {
             SetStarsWon();
         }
-        
+        delay_in_Collosion_Timer += Time.deltaTime;
     }
     void BusCollision()
     {
-        CollisionCounter++;
+        if(delay_in_Collosion_Timer <= 1)
+        {
+            delay_in_Collosion_Timer = 0;
+            CollisionCounter++;
+        }
+        
         if(CollisionCounter == LevelsDataManager.Instance.AllowedHits)
         {
             ShowLevelCompletionPanel(false);
