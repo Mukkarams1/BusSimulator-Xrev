@@ -28,14 +28,7 @@ public class LevelCompletionPanel : MonoBehaviour
     }
     IEnumerator PauseGameAfterDelay()
     {
-        if(FindObjectOfType<CarrierModeManager>() != null)
-        {
-            yield return new WaitForSeconds(5f);
-        }
-        else
-        {
-            yield return null;
-        }
+        yield return null;
         EventManager.PauseGame();
     }
     private void OnDisable()

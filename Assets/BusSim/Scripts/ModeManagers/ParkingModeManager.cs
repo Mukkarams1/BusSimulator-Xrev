@@ -37,7 +37,7 @@ public class ParkingModeManager: MonoBehaviour
 
         
 
-        //EventManager.onBusStopReach += BusStopReached;
+        EventManager.onBusStopReach += BusStopReached;
         EventManager.onPauseGame += PauseGame;
         EventManager.onResumeGame += ResumeGame;
       //EventManager.onLevelComplete += ShowLevelCompletionPanel;
@@ -48,7 +48,7 @@ public class ParkingModeManager: MonoBehaviour
     }
     private void OnDisable()
     {
-        //EventManager.onBusStopReach -= BusStopReached;
+        EventManager.onBusStopReach -= BusStopReached;
         EventManager.onPauseGame -= PauseGame;
         EventManager.onResumeGame -= ResumeGame;
     //  EventManager.onLevelComplete -= ShowLevelCompletionPanel;
