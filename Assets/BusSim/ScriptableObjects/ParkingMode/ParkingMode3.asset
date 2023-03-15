@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bba010a3615ba38449155ca498f73b82, type: 3}
+  m_Name: ParkingMode3
+  m_EditorClassIdentifier: 
+  levelNumber: 3
+  objective: ParkTheBus
+  levelMode: 4
+  LevelDataGameObject: {fileID: 679701486744068302, guid: fd8b33cd7416ae8459af2a4785ce3a8e, type: 3}
+  timeInSec: 60
+  allowedHits: 0
+  hitSpeed: 10
+  starWinTimer: 50
+  starWon: 0

@@ -30,6 +30,8 @@ public class ParkingModeManager: MonoBehaviour
     int CollisionCounter=0;
     bool isLevelComplete;
 
+    float time_Before_Collision;
+
     public RCC_CarControllerV3 carController;
     private void Start()
     {
@@ -65,7 +67,7 @@ public class ParkingModeManager: MonoBehaviour
         starsText.text = "StarsWon = " + LevelsDataManager.Instance.starWon;
         coinText.text = "Coins = " + WalletDataManager.Instance.coins;
         gemText.text = "Gems = " + WalletDataManager.Instance.gems;
-
+        time_Before_Collision += Time.deltaTime;
     }
     void levelCompleted()
     {
@@ -79,8 +81,14 @@ public class ParkingModeManager: MonoBehaviour
     }
     void BusCollision()
     {
-        CollisionCounter++;
         ShowLevelCompletionPanel(false);
+        if (time_Before_Collision >= 1)
+        {
+            time_Before_Collision = 0;
+            CollisionCounter++;
+        }
+        
+        
     }
 
 

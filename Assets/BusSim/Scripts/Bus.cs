@@ -15,13 +15,22 @@ public class Bus : MonoBehaviour
     public BusState currentState;
     public RCC_CarControllerV3 controller;
 
+    private void OnEnable()
+    {
+        FreezeBus(false);
+    }
     private void Start()
     {
         controller = FindObjectOfType<RCC_CarControllerV3>();
     }
+
+    public void FreezeBus(bool dofreeze)
+    {
+        controller.rigid.isKinematic = dofreeze;
+    }
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name!="BusStop")
+        if (collision.gameObject.name!="BusStop" && collision.gameObject.tag != "Track")
         {
             EventManager.BusCollision();
         }

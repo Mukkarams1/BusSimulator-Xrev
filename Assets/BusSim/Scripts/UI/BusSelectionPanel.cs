@@ -41,6 +41,7 @@ public class BusSelectionPanel : MonoBehaviour
         if (currentBus != null)
             DeleteBus();
         currentBus = Instantiate(LevelsDataManager.Instance.busPrefabsList[Index]);
+        currentBus.GetComponent<Bus>().FreezeBus(true);
     }
     void DeleteBus()
     {

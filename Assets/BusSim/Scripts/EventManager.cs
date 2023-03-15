@@ -42,6 +42,7 @@ public static class EventManager
     public static void ReachedBusStop(Transform obj)
     {
         onBusStopReach?.Invoke(obj);
+       
     }
     public static void StarWinningSpeedReached()
     {

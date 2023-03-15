@@ -24,19 +24,23 @@ public class CarrierModeManager : MonoBehaviour
     [SerializeField]
     GameObject[] Riders;
 
+    List<int> pickedRiderNo = new List<int>();
+    int pickedRiderCount;
+
     int currenttime;
 
     int currentStopNumber = 0;
     int CollisionCounter=0;
     bool isLevelComplete;
+    int ridertobepicked = 0;
 
     public RCC_CarControllerV3 carController;
     private void Start()
     {
      timerText.gameObject.SetActive(false);
 
-        
 
+        //EventManager.onReplayLevel += stopallCourtine;
         EventManager.onBusStopReach += BusStopReached;
         EventManager.onPauseGame += PauseGame;
         EventManager.onResumeGame += ResumeGame;
@@ -54,7 +58,7 @@ public class CarrierModeManager : MonoBehaviour
     //  EventManager.onLevelComplete -= ShowLevelCompletionPanel;
         EventManager.onNewLevelLoaded -= NewLevelLoaded;
         EventManager.onBusCollision -= BusCollision;
-
+        //EventManager.onReplayLevel -= stopallCourtine;
     }
     private void Update()
     {
@@ -64,8 +68,12 @@ public class CarrierModeManager : MonoBehaviour
         }
         starsText.text = "StarsWon = " + LevelsDataManager.Instance.starWon;
         coinText.text = "Coins = " + WalletDataManager.Instance.coins;
-        gemText.text = "Gems = " + WalletDataManager.Instance.gems;
+       // gemText.text = "Gems = " + WalletDataManager.Instance.gems;
 
+    }
+    void stopallCourtine()
+    {
+        StopAllCoroutines();
     }
     void levelCompleted()
     {
@@ -85,10 +93,10 @@ public class CarrierModeManager : MonoBehaviour
 
     void BusStopReached(Transform obj)
     {
-        
+        currentStopNumber++;
         if (currentStopNumber < LevelsDataManager.Instance.totalStopsInLevel)
         {
-            currentStopNumber++;
+            
             Debug.Log("stop number: " + currentStopNumber);
             Debug.Log("total stop number: " + LevelsDataManager.Instance.totalStopsInLevel);
             var stop = obj.transform.GetChild(0).transform;
@@ -101,10 +109,7 @@ public class CarrierModeManager : MonoBehaviour
             {
             var stop = obj.transform.GetChild(0).transform;
                 DropOff(stop);
-                EventManager.LevelCompleted();
-                isLevelComplete = true;
-                //level completed successfully
-                ShowLevelCompletionPanel(true);
+               
 
             }
          
@@ -112,16 +117,14 @@ public class CarrierModeManager : MonoBehaviour
 
     private void DropOff(Transform obj)
     {
-        int spawnCount = UnityEngine.Random.Range(1, 3);
-
-        for (int i = 0; i < spawnCount; i++)
+        carController.rigid.isKinematic = true;
+        for (int i = 0; i < pickedRiderCount; i++)
         {
-            int randomrider = UnityEngine.Random.Range(0, Riders.Length);
-            var riderGameObject = Instantiate(Riders[randomrider]);
+            var riderGameObject = Instantiate(Riders[pickedRiderNo[i]]);
             riderGameObject.transform.position = carController.transform.position;
             int randomSpread = UnityEngine.Random.Range(0, 5);
-            riderGameObject.transform.position += new Vector3(randomSpread, 0, randomSpread);
-            StartCoroutine(movetobus(obj, riderGameObject.transform));
+            riderGameObject.transform.position += new Vector3(randomSpread, 0, 0);
+            StartCoroutine(movetobus(obj, riderGameObject.transform,false));
         }
     }
 
@@ -131,25 +134,49 @@ public class CarrierModeManager : MonoBehaviour
 
         carController.rigid.isKinematic = true;
 
-        int spawnCount = UnityEngine.Random.Range(1, 3);
+        int spawnCount = UnityEngine.Random.Range(1, 4);
+        pickedRiderCount = spawnCount;
 
         for (int i = 0; i < spawnCount; i++)
         {
             int randomrider = UnityEngine.Random.Range(0, Riders.Length - 1);
+            pickedRiderNo.Add(randomrider);
             var riderGameObject = Instantiate(Riders[randomrider]);
             riderGameObject.transform.position = obj.transform.position;
             int randomSpread = UnityEngine.Random.Range(0, 10);
             riderGameObject.transform.position += new Vector3(randomSpread, 0, randomSpread);
-            StartCoroutine(movetobus(carController.gameObject.transform, riderGameObject.transform));
+            StartCoroutine(movetobus(carController.gameObject.transform, riderGameObject.transform,true));
         }
 
     }
-    IEnumerator movetobus(Transform buspos , Transform objToMove)
+    IEnumerator movetobus(Transform buspos , Transform objToMove , bool ispick)
     {
         
-        objToMove.transform.DOMove(buspos.transform.position, 5f).OnComplete(() => {
+        int randomspeed = UnityEngine.Random.Range(2, 7);
+        objToMove.transform.DOMove(buspos.transform.position, randomspeed).OnComplete(() => {
             Destroy(objToMove.gameObject);
-            carController.rigid.isKinematic = false;
+            if(ispick)
+            {
+                ridertobepicked++;
+                if(ridertobepicked == pickedRiderCount)
+                {
+                    carController.rigid.isKinematic = false;
+                }
+                
+            }
+            else if(!ispick)
+            {
+                pickedRiderCount--;
+                if(pickedRiderCount == 0)
+                {
+                    carController.rigid.isKinematic = false;
+                    EventManager.LevelCompleted();
+                    isLevelComplete = true;
+                    //level completed successfully
+                    ShowLevelCompletionPanel(true);
+                }
+              
+            }
         });
         yield return null;
     }
@@ -158,6 +185,9 @@ public class CarrierModeManager : MonoBehaviour
         currentStopNumber = 0;
         CollisionCounter = 0;
         isLevelComplete = false;
+        pickedRiderCount = 0;
+        ridertobepicked = 0;
+        pickedRiderNo.Clear();
     }
 
 
@@ -226,6 +256,7 @@ public class CarrierModeManager : MonoBehaviour
     }
     public void NewLevelLoaded()
     {
+        StopAllCoroutines();
         ResetVariables();
         RCCCanvas.SetActive(true);
         levelCompletionPanel.gameObject.SetActive(false);
