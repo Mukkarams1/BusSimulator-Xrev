@@ -15,10 +15,13 @@ public class ModeSelectionPanel : MonoBehaviour
     {
         foreach (var mod in Enum.GetNames(typeof(gameModesEnum)))
         {
-            var btn = Instantiate(ModeBtn,ModeBtnsContent);
             var modeEnm = (gameModesEnum)Enum.Parse(typeof(gameModesEnum), mod);
+            if (modeEnm!= gameModesEnum.None && modeEnm != gameModesEnum.racingMode)
+            {
+            var btn = Instantiate(ModeBtn,ModeBtnsContent);
             btn.GetComponentInChildren<TextMeshProUGUI>().text=mod;
             btn.onClick.AddListener(() => GameModeSelected(modeEnm));
+            }
         }
 
     }

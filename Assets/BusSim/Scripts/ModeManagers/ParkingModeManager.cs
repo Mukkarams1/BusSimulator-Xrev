@@ -231,6 +231,7 @@ public class ParkingModeManager: MonoBehaviour
     }
     public void NewLevelLoaded()
     {
+        StopAllCoroutines();
         ResetVariables();
         RCCCanvas.SetActive(true);
         levelCompletionPanel.gameObject.SetActive(false);

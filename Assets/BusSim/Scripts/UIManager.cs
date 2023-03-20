@@ -9,6 +9,9 @@ public class UIManager : MonoBehaviour
     Button PlayBtn;
     [SerializeField]
     Button StartBtn;
+    [SerializeField]
+    GameObject ObjectivePAnel;
+
 
 
     #region Panels
@@ -63,6 +66,7 @@ public class UIManager : MonoBehaviour
     void ShowStartBtn(int level)
     {
         levelSelectionPanel.gameObject.SetActive(false);
+        ObjectivePAnel.gameObject.SetActive(true);
         StartBtn.gameObject.SetActive(true);
     }
     public void ShowPlayBtn()

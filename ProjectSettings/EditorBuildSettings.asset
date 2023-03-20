@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/BusSim/Scenes/ObstacleMode.unity
     guid: 34ba9cf75e679da45a3c25eeb2be4df9
   - enabled: 1
-    path: Assets/BusSim/Scenes/RacingMode.unity
+    path: Assets/BusSim/Scenes/DiscardedScenes/RacingMode.unity
     guid: 304fe2f7c08f1334fb935ba22481cd5f
   - enabled: 1
     path: Assets/BusSim/Scenes/FreeMode.unity

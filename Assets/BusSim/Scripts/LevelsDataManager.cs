@@ -17,6 +17,7 @@ public class LevelsDataManager : GenericSingletonClass<LevelsDataManager>
     public int starWinningSpeed { get; private set; } = 0;
     public int starWon { get; set; }
     public int AllowedHits { get; set; }
+    public string Objective { get; set; }
     public gameModesEnum currentGameMode { get; private set; }
     int currentBusModelIndex;
     public GameObject currentLevelObject;
@@ -86,6 +87,8 @@ public class LevelsDataManager : GenericSingletonClass<LevelsDataManager>
     public void SetLevel(int level)
     {
         currentLevel = level;
+        var currentlevelData = getLevelData(currentGameMode, currentLevel);
+        Objective = currentlevelData.objective;
         if (SceneManager.GetActiveScene().buildIndex != 0)
         {
             LoadLevel();
@@ -94,6 +97,7 @@ public class LevelsDataManager : GenericSingletonClass<LevelsDataManager>
     void LoadLevel()
     {
         var currentlevelData = getLevelData(currentGameMode, currentLevel);
+       
         InstantiateLevel(currentlevelData.LevelDataGameObject);
         InstantiateBus();
         totalStopsInLevel = currentLevelObject.transform.Find("BusStops").transform.childCount;
@@ -101,6 +105,7 @@ public class LevelsDataManager : GenericSingletonClass<LevelsDataManager>
         starWinningSpeed = currentlevelData.hitSpeed;
         starWon = currentlevelData.starWon;
         AllowedHits = currentlevelData.allowedHits;
+        
         EventManager.LoadNewLevel();
     }
     void InstantiateBus()

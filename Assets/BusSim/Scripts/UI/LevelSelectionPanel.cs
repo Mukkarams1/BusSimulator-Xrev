@@ -37,7 +37,8 @@ public class LevelSelectionPanel : MonoBehaviour
         {
             var levelNo = (item.levelNumber);
             var btnObj = Instantiate(LevelSelectionBtnPrefab,LevelSelectionContent);
-            btnObj.GetComponentInChildren<TextMeshProUGUI>().text = "Level " + levelNo;
+            btnObj.GetComponent<LevelSelectionBtn>().SetStars(item.starWon);
+            btnObj.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "Level " + levelNo;
             btnObj.GetComponent<Button>().onClick.AddListener(()=>SetLevel(levelNo));
         }
     }
