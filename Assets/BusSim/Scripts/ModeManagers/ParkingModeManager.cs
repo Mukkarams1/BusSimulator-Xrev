@@ -64,9 +64,9 @@ public class ParkingModeManager: MonoBehaviour
         {
             carController = FindObjectOfType<RCC_CarControllerV3>();
         }
-        starsText.text = "StarsWon = " + LevelsDataManager.Instance.starWon;
-        coinText.text = "Coins = " + WalletDataManager.Instance.coins;
-        gemText.text = "Gems = " + WalletDataManager.Instance.gems;
+        starsText.text = "StarsWon : " + LevelsDataManager.Instance.starWon;
+        coinText.text = "Coins : " + WalletDataManager.Instance.coins;
+        //gemText.text = "Gems = " + WalletDataManager.Instance.gems;
         time_Before_Collision += Time.deltaTime;
     }
     void levelCompleted()
@@ -255,6 +255,6 @@ public class ParkingModeManager: MonoBehaviour
     void ShowTime(float remainingTime)
     {
         currenttime =(int)remainingTime;
-        timerText.text = remainingTime.ToString()+"s";
+        timerText.text ="Timer : " + remainingTime.ToString()+"s";
     }
 }

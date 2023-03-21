@@ -65,9 +65,9 @@ public class ObstacleModeManager : MonoBehaviour
         {
             carController = FindObjectOfType<RCC_CarControllerV3>();
         }
-        starsText.text = "StarsWon = " + LevelsDataManager.Instance.starWon;
-        coinText.text = "Coins = " + WalletDataManager.Instance.coins;
-        gemText.text = "Gems = " + WalletDataManager.Instance.gems;
+        starsText.text = "StarsWon : " + LevelsDataManager.Instance.starWon;
+        coinText.text = "Coins : " + WalletDataManager.Instance.coins;
+        //gemText.text = "Gems = " + WalletDataManager.Instance.gems;
 
     }
     void levelCompleted()
@@ -258,6 +258,6 @@ public class ObstacleModeManager : MonoBehaviour
     void ShowTime(float remainingTime)
     {
         currenttime =(int)remainingTime;
-        timerText.text = remainingTime.ToString()+"s";
+        timerText.text ="Timer : " + remainingTime.ToString()+"s";
     }
 }

@@ -16,10 +16,11 @@ public class ModeSelectionPanel : MonoBehaviour
         foreach (var mod in Enum.GetNames(typeof(gameModesEnum)))
         {
             var modeEnm = (gameModesEnum)Enum.Parse(typeof(gameModesEnum), mod);
-            if (modeEnm!= gameModesEnum.None && modeEnm != gameModesEnum.racingMode)
+            if (modeEnm!= gameModesEnum.None && modeEnm != gameModesEnum.racingMode && modeEnm != gameModesEnum.highwayMode && modeEnm != gameModesEnum.offroadMode )
             {
             var btn = Instantiate(ModeBtn,ModeBtnsContent);
-            btn.GetComponentInChildren<TextMeshProUGUI>().text=mod;
+            btn.GetComponentInChildren<TextMeshProUGUI>().text=mod + " Mode";
+                btn.GetComponent<ModeSelectionBtn>().SetImage(mod);
             btn.onClick.AddListener(() => GameModeSelected(modeEnm));
             }
         }
@@ -29,8 +30,8 @@ public class ModeSelectionPanel : MonoBehaviour
     {
         switch (levelMode)
         {
-            case gameModesEnum.careerMode:
-                EventManager.SelectGameMode(gameModesEnum.careerMode);
+            case gameModesEnum.Career:
+                EventManager.SelectGameMode(gameModesEnum.Career);
                 break;
             case gameModesEnum.highwayMode:
                 EventManager.SelectGameMode(gameModesEnum.highwayMode);
@@ -40,20 +41,20 @@ public class ModeSelectionPanel : MonoBehaviour
                 EventManager.SelectGameMode(gameModesEnum.offroadMode);
 
                 break;
-            case gameModesEnum.parkingMode:
-                EventManager.SelectGameMode(gameModesEnum.parkingMode);
+            case gameModesEnum.Parking:
+                EventManager.SelectGameMode(gameModesEnum.Parking);
 
                 break;
-            case gameModesEnum.obstacleMode:
-                EventManager.SelectGameMode(gameModesEnum.obstacleMode);
+            case gameModesEnum.Obstacle:
+                EventManager.SelectGameMode(gameModesEnum.Obstacle);
 
                 break;
             case gameModesEnum.racingMode:
                 EventManager.SelectGameMode(gameModesEnum.racingMode);
 
                 break;
-            case gameModesEnum.freeMode:
-                EventManager.SelectGameMode(gameModesEnum.freeMode);
+            case gameModesEnum.Free:
+                EventManager.SelectGameMode(gameModesEnum.Free);
 
                 break;
             default:
@@ -63,12 +64,12 @@ public class ModeSelectionPanel : MonoBehaviour
 }
 public enum gameModesEnum
 {
-    careerMode = 1,
+    Career = 1,
     highwayMode = 2,
     offroadMode = 3,
-    parkingMode = 4,
-    obstacleMode = 5,
+    Parking = 4,
+    Obstacle = 5,
     racingMode = 6,
-    freeMode = 7,
+    Free = 7,
     None
 }

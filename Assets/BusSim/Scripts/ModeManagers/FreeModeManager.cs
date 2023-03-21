@@ -66,8 +66,8 @@ public class FreeModeManager : MonoBehaviour
         {
             carController = FindObjectOfType<RCC_CarControllerV3>();
         }
-        starsText.text = "StarsWon = " + LevelsDataManager.Instance.starWon;
-        coinText.text = "Coins = " + WalletDataManager.Instance.coins;
+        starsText.text = "StarsWon : " + LevelsDataManager.Instance.starWon;
+        coinText.text = "Coins : " + WalletDataManager.Instance.coins;
        // gemText.text = "Gems = " + WalletDataManager.Instance.gems;
 
     }
@@ -280,6 +280,6 @@ public class FreeModeManager : MonoBehaviour
     void ShowTime(float remainingTime)
     {
         currenttime =(int)remainingTime;
-        timerText.text = remainingTime.ToString()+"s";
+        timerText.text ="Timer : " + remainingTime.ToString()+"s";
     }
 }

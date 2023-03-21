@@ -16,6 +16,10 @@ public class LevelCompletionPanel : MonoBehaviour
     Button MainMenuBtn;
     [SerializeField]
     TextMeshProUGUI levelCompletionText;
+    [SerializeField]
+    Button PauseButton;
+
+   
     private void Awake()
     {
         ReplayBtn.onClick.AddListener(ReplayLevel);
@@ -48,12 +52,16 @@ public class LevelCompletionPanel : MonoBehaviour
         if (isSuccessful)
         {
             levelCompletionText.text = "Level Completed";
+            //levelComplete.gameObject.SetActive(true);
             ContinueBtn.gameObject.SetActive(true);
+            PauseButton.gameObject.SetActive(false);
         }
         else
         {
             levelCompletionText.text = "Level Failed";
+            //levelFail.gameObject.SetActive(true);
             ContinueBtn.gameObject.SetActive(false);
+            PauseButton.gameObject.SetActive(false);
         }
     }
     void ReplayLevel()

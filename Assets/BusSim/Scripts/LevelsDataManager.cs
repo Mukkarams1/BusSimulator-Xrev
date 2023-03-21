@@ -148,7 +148,7 @@ public class LevelsDataManager : GenericSingletonClass<LevelsDataManager>
     {
         switch (currentGameMode)
         {
-            case gameModesEnum.careerMode:
+            case gameModesEnum.Career:
                 StartCoroutine(LoadYourAsyncScene(1));
                 break;
             case gameModesEnum.highwayMode:
@@ -159,11 +159,11 @@ public class LevelsDataManager : GenericSingletonClass<LevelsDataManager>
                 StartCoroutine(LoadYourAsyncScene(3));
 
                 break;
-            case gameModesEnum.parkingMode:
+            case gameModesEnum.Parking:
                 StartCoroutine(LoadYourAsyncScene(4));
 
                 break;
-            case gameModesEnum.obstacleMode:
+            case gameModesEnum.Obstacle:
                 StartCoroutine(LoadYourAsyncScene(5));
 
                 break;
@@ -171,7 +171,7 @@ public class LevelsDataManager : GenericSingletonClass<LevelsDataManager>
                 StartCoroutine(LoadYourAsyncScene(6));
 
                 break;
-            case gameModesEnum.freeMode:
+            case gameModesEnum.Free:
                 StartCoroutine(LoadYourAsyncScene(7));
 
                 break;
