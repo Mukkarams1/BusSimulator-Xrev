@@ -40,7 +40,7 @@ public class BusSelectionPanel : MonoBehaviour
         /// may do it with pooling later
         if (currentBus != null)
             DeleteBus();
-        currentBus = Instantiate(LevelsDataManager.Instance.busPrefabsList[Index]);
+        currentBus = Instantiate(LevelsDataManager.Instance.busPrefabsList[Index],Vector3.back,Quaternion.Inverse(Quaternion.identity));
         currentBus.GetComponent<Bus>().FreezeBus(true);
     }
     void DeleteBus()
