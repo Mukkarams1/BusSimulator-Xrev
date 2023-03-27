@@ -18,16 +18,20 @@ public class WalletDataManager : GenericSingletonClass<WalletDataManager>
         GetCoinsAndGems();
     }
 
-    public void AddCoins(int coin)
+    public void AddCoins(int Amount)
     {
-        wallet.totalCoins += coin;
-        this.coins += coin;
+        wallet.totalCoins += Amount;
+        this.coins += Amount;
+        SaveAndLoadManager.Instance.addCoins(Amount);
     }
 
     public void RemoveCoins(int coin)
     {
         wallet.totalCoins -= coin;
         this.coins -= coin;
+        SaveAndLoadManager.Instance.DeductCoins(coin);
+
+
     }
 
     public void AddGems(int Gem)
@@ -43,7 +47,7 @@ public class WalletDataManager : GenericSingletonClass<WalletDataManager>
 
     public void GetCoinsAndGems()
     {
-        coins = wallet.totalCoins;
-        gems = wallet.totalGems;
+        coins = PlayerPrefs.GetInt("Coins");
+        // gems = wallet.totalGems;
     }
 }

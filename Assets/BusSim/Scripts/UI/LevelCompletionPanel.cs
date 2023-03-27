@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +19,10 @@ public class LevelCompletionPanel : MonoBehaviour
     TextMeshProUGUI levelCompletionText;
     [SerializeField]
     Button PauseButton;
+    [SerializeField]
+    GameObject stars;
+    [SerializeField]
+    Transform contextForStars;
 
    
     private void Awake()
@@ -29,6 +34,27 @@ public class LevelCompletionPanel : MonoBehaviour
     private void OnEnable()
     {
         StartCoroutine(PauseGameAfterDelay());
+        ShowWonStars();
+    }
+
+    private void ShowWonStars()
+    {
+        for(int i = 0; i < LevelsDataManager.Instance.starWon; i++)
+        {
+            Instantiate(stars, contextForStars);
+        }
+    }
+   
+    private void DestroyStarPrefab()
+    {
+        if(contextForStars.childCount > 1)
+        {
+            for (int j = 0; j < contextForStars.childCount; j++)
+            {
+                Destroy(contextForStars.GetChild(j).gameObject);
+            }
+        }
+        
     }
     IEnumerator PauseGameAfterDelay()
     {
@@ -66,19 +92,25 @@ public class LevelCompletionPanel : MonoBehaviour
     }
     void ReplayLevel()
     {
+        PauseButton.gameObject.SetActive(true);
         EventManager.ReplayLevel();
+        DestroyStarPrefab();
         this.gameObject.SetActive(false);
 
     }
     void ContinueToNextLevel()
     {
+        PauseButton.gameObject.SetActive(true);
         EventManager.ContinueToNextLevel();
+        DestroyStarPrefab();
         this.gameObject.SetActive(false);
 
     }
     void GotoMainMenu()
     {
+        PauseButton.gameObject.SetActive(true);
         EventManager.GotoMainMenu();
+        DestroyStarPrefab();
         this.gameObject.SetActive(false);
 
     }

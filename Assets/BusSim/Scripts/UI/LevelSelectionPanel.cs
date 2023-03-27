@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -37,7 +38,8 @@ public class LevelSelectionPanel : MonoBehaviour
         {
             var levelNo = (item.levelNumber);
             var btnObj = Instantiate(LevelSelectionBtnPrefab,LevelSelectionContent);
-            btnObj.GetComponent<LevelSelectionBtn>().SetStars(item.starWon);
+            string modename = Enum.GetName(typeof(gameModesEnum), item.levelMode);
+            btnObj.GetComponent<LevelSelectionBtn>().SetStars(SaveAndLoadManager.Instance.getstar(modename,levelNo));
             btnObj.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "Level " + levelNo;
             btnObj.GetComponent<Button>().onClick.AddListener(()=>SetLevel(levelNo));
         }

@@ -50,6 +50,7 @@ public class ParkingModeManager: MonoBehaviour
     }
     private void OnDisable()
     {
+        EventManager.onStarWinningSpeed -= SetStarsWon;
         EventManager.onBusStopReach -= BusStopReached;
         EventManager.onPauseGame -= PauseGame;
         EventManager.onResumeGame -= ResumeGame;
@@ -162,6 +163,7 @@ public class ParkingModeManager: MonoBehaviour
     {
         currentStopNumber = 0;
         CollisionCounter = 0;
+        //LevelsDataManager.Instance.starWon = 0;
         isLevelComplete = false;
     }
 

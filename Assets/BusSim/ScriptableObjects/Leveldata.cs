@@ -1,8 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName ="New Level",menuName ="Scriptable Objects/level")]
+[CreateAssetMenu(fileName = "New Level", menuName = "Scriptable Objects/level")]
 public class Leveldata : ScriptableObject
 {
     [SerializeField]
@@ -22,5 +23,5 @@ public class Leveldata : ScriptableObject
     [SerializeField]
     public int starWinTimer;
     [SerializeField]
-    public int starWon;
+    public List<String> StarWinningConditions;
 }

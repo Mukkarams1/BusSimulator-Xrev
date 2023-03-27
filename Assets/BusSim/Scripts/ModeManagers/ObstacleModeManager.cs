@@ -166,6 +166,7 @@ public class ObstacleModeManager : MonoBehaviour
     {
         currentStopNumber = 0;
         CollisionCounter = 0;
+        //LevelsDataManager.Instance.starWon = SaveAndLoadManager.Instance.getstar(mode);
         isLevelComplete = false;
     }
 

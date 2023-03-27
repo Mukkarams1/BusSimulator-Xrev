@@ -19,6 +19,7 @@ namespace hardartcore.CasualGUI
             dialogContent.transform.localScale = Vector3.zero;
             dialogContent.SetActive(true);
             dialogContent.transform.DOScale(Vector3.one, animDuration);
+            
         }
 
         public void HideDialog()

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,6 +12,8 @@ public class UIManager : MonoBehaviour
     Button StartBtn;
     [SerializeField]
     GameObject ObjectivePAnel;
+    [SerializeField]
+    Slider AuidoSlider;
 
 
 
@@ -29,12 +32,25 @@ public class UIManager : MonoBehaviour
     {
         PlayBtn.onClick.AddListener(ShowBusSelectionPanel);
         StartBtn.onClick.AddListener(OpenGameScene);
-        
+        AuidoSlider.onValueChanged.AddListener(GetVolumeSlider);
+
+        float volume = PlayerPrefs.GetFloat("SFX");
+        SetVolumeSlider(volume);
+
         EventManager.onLevelSelected += ShowStartBtn;
         EventManager.onBusSelected += ShowModeSelectionPanel;
         EventManager.onShowLevelSelectionPanel += ShowLevelSelectionPanel;
 
     }
+
+    private void GetVolumeSlider(float arg0)
+    {
+
+        float SliderValue = arg0;
+        PlayerPrefs.SetFloat("SFX", SliderValue);
+        SetVolumeSlider(SliderValue);
+    }
+
     private void OnDisable()
     {
         EventManager.onLevelSelected -= ShowStartBtn;
@@ -43,6 +59,12 @@ public class UIManager : MonoBehaviour
 
 
     }
+    private void SetVolumeSlider(float voluime)
+    {
+        AuidoSlider.value = voluime;
+        AudioListener.volume = voluime;
+    }
+
     void ShowModeSelectionPanel(int model)
     {
         //PlayBtn.gameObject.SetActive(false);

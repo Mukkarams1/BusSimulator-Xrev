@@ -20,4 +20,8 @@ MonoBehaviour:
   allowedHits: 0
   hitSpeed: 40
   starWinTimer: 50
-  starWon: 0
+  starWon: 3
+  StarWinningConditions:
+  - Complete Round in 50sec
+  - Hit Max Speed of 40
+  - Complete the Round

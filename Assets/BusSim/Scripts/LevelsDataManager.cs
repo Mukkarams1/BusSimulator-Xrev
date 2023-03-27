@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +20,8 @@ public class LevelsDataManager : GenericSingletonClass<LevelsDataManager>
     public int AllowedHits { get; set; }
     public string Objective { get; set; }
     public gameModesEnum currentGameMode { get; private set; }
+
+    public List<string> starWinningCondtions = new List<string>();
     int currentBusModelIndex;
     public GameObject currentLevelObject;
     GameObject currentBusObject;
@@ -89,6 +92,8 @@ public class LevelsDataManager : GenericSingletonClass<LevelsDataManager>
         currentLevel = level;
         var currentlevelData = getLevelData(currentGameMode, currentLevel);
         Objective = currentlevelData.objective;
+        //starWinningCondtions.Clear();
+        starWinningCondtions = currentlevelData.StarWinningConditions;
         if (SceneManager.GetActiveScene().buildIndex != 0)
         {
             LoadLevel();
@@ -103,9 +108,10 @@ public class LevelsDataManager : GenericSingletonClass<LevelsDataManager>
         totalStopsInLevel = currentLevelObject.transform.Find("BusStops").transform.childCount;
         starWinningTime = currentlevelData.starWinTimer;
         starWinningSpeed = currentlevelData.hitSpeed;
-        starWon = currentlevelData.starWon;
         AllowedHits = currentlevelData.allowedHits;
-        
+        GetSetStars();
+
+
         EventManager.LoadNewLevel();
     }
     void InstantiateBus()
@@ -126,7 +132,14 @@ public class LevelsDataManager : GenericSingletonClass<LevelsDataManager>
     }
     public void setLevelsStars()
     {
-        levelData[currentLevel - 1].starWon = starWon;
+        string modename = Enum.GetName(typeof(gameModesEnum),currentGameMode);
+        SaveAndLoadManager.Instance.setStarWon(modename, currentLevel, starWon);
+       
+    }
+    public void GetSetStars()
+    {
+        string modename = Enum.GetName(typeof(gameModesEnum), currentGameMode);
+        starWon = SaveAndLoadManager.Instance.getstar(modename, currentLevel);
     }
     public void InstantiateLevel(GameObject levelObj)
     {

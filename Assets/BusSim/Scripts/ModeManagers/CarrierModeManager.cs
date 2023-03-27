@@ -52,6 +52,7 @@ public class CarrierModeManager : MonoBehaviour
     }
     private void OnDisable()
     {
+        EventManager.onStarWinningSpeed -= SetStarsWon;
         EventManager.onBusStopReach -= BusStopReached;
         EventManager.onPauseGame -= PauseGame;
         EventManager.onResumeGame -= ResumeGame;
@@ -153,6 +154,7 @@ public class CarrierModeManager : MonoBehaviour
     {
         
         int randomspeed = UnityEngine.Random.Range(2, 7);
+        objToMove.transform.LookAt(buspos);
         objToMove.transform.DOMove(buspos.transform.position, randomspeed).OnComplete(() => {
             Destroy(objToMove.gameObject);
             if(ispick)
@@ -182,12 +184,14 @@ public class CarrierModeManager : MonoBehaviour
     }
     private void ResetVariables()
     {
+        //LevelsDataManager.Instance.starWon = 0;
         currentStopNumber = 0;
         CollisionCounter = 0;
         isLevelComplete = false;
         pickedRiderCount = 0;
         ridertobepicked = 0;
         pickedRiderNo.Clear();
+        
     }
 
 

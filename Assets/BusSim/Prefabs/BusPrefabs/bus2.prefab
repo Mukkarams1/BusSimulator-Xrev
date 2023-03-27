@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1759282273}
   - component: {fileID: 1759282272}
   - component: {fileID: 1759282271}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -1140,7 +1140,7 @@ MonoBehaviour:
   brakeTorque: 10000
   downForce: 10
   speed: 0
-  maxspeed: 120
+  maxspeed: 200
   engineTorqueCurve:
     serializedVersion: 2
     m_Curve:
@@ -1175,7 +1175,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   autoGenerateEngineRPMCurve: 1
-  maxEngineTorque: 800
+  maxEngineTorque: 1000
   maxEngineTorqueAtRPM: 3000
   minEngineRPM: 1000
   maxEngineRPM: 4500

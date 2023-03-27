@@ -21,3 +21,7 @@ MonoBehaviour:
   hitSpeed: 50
   starWinTimer: 47
   starWon: 1
+  StarWinningConditions:
+  - Complete Round in 47sec
+  - Hit Max Speed of 50
+  - Won the Round
