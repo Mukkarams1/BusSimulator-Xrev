@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: FreeMode
   m_EditorClassIdentifier: 
   levelNumber: 1
-  objective: ParkTheBus
+  objective: FreeMode
   levelMode: 7
   LevelDataGameObject: {fileID: 3539647095710364201, guid: 6ae4f71b02d963449b1db8ad248f72fd, type: 3}
   timeInSec: 60
   allowedHits: 3
   hitSpeed: 10
   starWinTimer: 50
-  starWon: 0
+  StarWinningConditions: []

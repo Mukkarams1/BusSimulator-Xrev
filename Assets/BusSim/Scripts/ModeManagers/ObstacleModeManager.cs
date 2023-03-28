@@ -20,6 +20,8 @@ public class ObstacleModeManager : MonoBehaviour
     TextMeshProUGUI coinText;
     [SerializeField]
     TextMeshProUGUI gemText;
+    [SerializeField]
+    TextMeshProUGUI collosionCounterText;
 
     [SerializeField]
     GameObject[] Riders;
@@ -86,6 +88,8 @@ public class ObstacleModeManager : MonoBehaviour
         {
             delay_in_Collosion_Timer = 0;
             CollisionCounter++;
+            collosionCounterText.text ="Hit Count : " + CollisionCounter.ToString();
+
         }
         
         if(CollisionCounter == LevelsDataManager.Instance.AllowedHits)
@@ -236,6 +240,7 @@ public class ObstacleModeManager : MonoBehaviour
     }
     public void NewLevelLoaded()
     {
+        StopAllCoroutines();
         ResetVariables();
         RCCCanvas.SetActive(true);
         levelCompletionPanel.gameObject.SetActive(false);

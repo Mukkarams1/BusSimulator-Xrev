@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ParkingMode4
   m_EditorClassIdentifier: 
   levelNumber: 4
-  objective: ParkTheBus
+  objective: Park The Bus Without Hiting Any Obstacle
   levelMode: 4
   LevelDataGameObject: {fileID: 8872437625554496102, guid: bee9ddb8297a89644b127fc54bc7910b, type: 3}
   timeInSec: 60

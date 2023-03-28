@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: ParkingMode5
   m_EditorClassIdentifier: 
   levelNumber: 4
-  objective: ParkTheBus
+  objective: Park The Bus Without Hiting Any Obstacle
   levelMode: 4
   LevelDataGameObject: {fileID: 4379553101522362920, guid: 20929e875fd588a49bda70b9a088a8f5, type: 3}
   timeInSec: 60
   allowedHits: 0
   hitSpeed: 10
-  starWinTimer: 50
+  starWinTimer: 20
   StarWinningConditions:
   - Hit Max Speed of 10
   - Complete Round in 50sec

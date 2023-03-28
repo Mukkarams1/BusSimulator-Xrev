@@ -59,6 +59,7 @@ public class CarrierModeManager : MonoBehaviour
     //  EventManager.onLevelComplete -= ShowLevelCompletionPanel;
         EventManager.onNewLevelLoaded -= NewLevelLoaded;
         EventManager.onBusCollision -= BusCollision;
+        EventManager.onLevelComplete -= levelCompleted;
         //EventManager.onReplayLevel -= stopallCourtine;
     }
     private void Update()
@@ -79,7 +80,7 @@ public class CarrierModeManager : MonoBehaviour
     void levelCompleted()
     {
         SetStarsWon();
-        var lefttime = LevelsDataManager.Instance.starWinningTime - currenttime;
+        var lefttime = currenttime - LevelsDataManager.Instance.starWinningTime;
         if(lefttime > 0)
         {
             SetStarsWon();

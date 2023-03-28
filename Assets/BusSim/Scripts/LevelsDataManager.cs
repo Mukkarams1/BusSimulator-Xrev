@@ -17,9 +17,12 @@ public class LevelsDataManager : GenericSingletonClass<LevelsDataManager>
     public int starWinningTime { get; private set; } = 0;
     public int starWinningSpeed { get; private set; } = 0;
     public int starWon { get; set; }
+    public int LastWonStars { get; set; }
     public int AllowedHits { get; set; }
     public string Objective { get; set; }
-    public gameModesEnum currentGameMode { get; private set; }
+
+
+    public gameModesEnum currentGameMode { get; set; }
 
     public List<string> starWinningCondtions = new List<string>();
     int currentBusModelIndex;
@@ -110,6 +113,8 @@ public class LevelsDataManager : GenericSingletonClass<LevelsDataManager>
         starWinningSpeed = currentlevelData.hitSpeed;
         AllowedHits = currentlevelData.allowedHits;
         GetSetStars();
+        starWon = 0;
+        
 
 
         EventManager.LoadNewLevel();
@@ -132,14 +137,18 @@ public class LevelsDataManager : GenericSingletonClass<LevelsDataManager>
     }
     public void setLevelsStars()
     {
-        string modename = Enum.GetName(typeof(gameModesEnum),currentGameMode);
-        SaveAndLoadManager.Instance.setStarWon(modename, currentLevel, starWon);
+        if(starWon > LastWonStars) {
+            string modename = Enum.GetName(typeof(gameModesEnum), currentGameMode);
+            SaveAndLoadManager.Instance.setStarWon(modename, currentLevel, starWon);
+        }
+        
        
     }
     public void GetSetStars()
     {
         string modename = Enum.GetName(typeof(gameModesEnum), currentGameMode);
         starWon = SaveAndLoadManager.Instance.getstar(modename, currentLevel);
+        LastWonStars = starWon;
     }
     public void InstantiateLevel(GameObject levelObj)
     {

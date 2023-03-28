@@ -54,7 +54,12 @@ public class ModeSelectionPanel : MonoBehaviour
 
                 break;
             case gameModesEnum.Free:
-                EventManager.SelectGameMode(gameModesEnum.Free);
+                {
+                    LevelsDataManager.Instance.currentGameMode = gameModesEnum.Free;
+                    EventManager.SelectLevel(1);
+                    LevelsDataManager.Instance.LoadScene();
+                }
+                
 
                 break;
             default:

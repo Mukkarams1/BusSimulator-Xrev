@@ -98,7 +98,15 @@ public class UIManager : MonoBehaviour
 
     void OpenGameScene()
     {
+        StartBtn.interactable = false;
         LevelsDataManager.Instance.LoadScene();
+        
+        StartCoroutine(setIntrectative());
+    }
+    IEnumerator setIntrectative()
+    {
+        yield return new WaitForSeconds(2f);
+        StartBtn.interactable |= true;
     }
     
 }
