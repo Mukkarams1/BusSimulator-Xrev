@@ -33,6 +33,7 @@ public class LevelCompletionPanel : MonoBehaviour
     }
     private void OnEnable()
     {
+        DestroyStarPrefab();
         StartCoroutine(PauseGameAfterDelay());
         ShowWonStars();
     }
@@ -47,7 +48,7 @@ public class LevelCompletionPanel : MonoBehaviour
    
     private void DestroyStarPrefab()
     {
-        if(contextForStars.childCount > 1)
+        if(contextForStars.childCount >= 1)
         {
             for (int j = 0; j < contextForStars.childCount; j++)
             {

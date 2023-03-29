@@ -106,7 +106,7 @@ public class UIManager : MonoBehaviour
     IEnumerator setIntrectative()
     {
         yield return new WaitForSeconds(2f);
-        StartBtn.interactable |= true;
+        StartBtn.interactable = true;
     }
     
 }
