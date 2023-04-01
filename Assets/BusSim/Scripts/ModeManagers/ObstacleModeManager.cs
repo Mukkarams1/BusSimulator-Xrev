@@ -70,6 +70,7 @@ public class ObstacleModeManager : MonoBehaviour
         }
         starsText.text = LevelsDataManager.Instance.starWon.ToString();
         coinText.text = WalletDataManager.Instance.coins.ToString();
+        delay_in_Collosion_Timer += Time.deltaTime;
         //gemText.text = "Gems = " + WalletDataManager.Instance.gems;
 
     }
@@ -85,11 +86,11 @@ public class ObstacleModeManager : MonoBehaviour
     }
     void BusCollision()
     {
-        if(delay_in_Collosion_Timer <= 1)
+        if(delay_in_Collosion_Timer >= 2)
         {
             delay_in_Collosion_Timer = 0;
             CollisionCounter++;
-            collosionCounterText.text ="Hit Count : " + LevelsDataManager.Instance.AllowedHits + "/" + CollisionCounter.ToString();
+            collosionCounterText.text ="Hit Count : "   + CollisionCounter.ToString() + "/" + LevelsDataManager.Instance.AllowedHits;
 
         }
         
@@ -241,7 +242,7 @@ public class ObstacleModeManager : MonoBehaviour
     }
     public void NewLevelLoaded()
     {
-        collosionCounterText.text = "Hit Count : " + LevelsDataManager.Instance.AllowedHits + "/0";
+        collosionCounterText.text = "Hit Count : " + "0/" + LevelsDataManager.Instance.AllowedHits ;
         StopAllCoroutines();
         ResetVariables();
         RCCCanvas.SetActive(true);

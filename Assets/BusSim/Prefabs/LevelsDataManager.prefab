@@ -44,9 +44,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b60ce6c8b38cb0b4c9b53cec768a5cf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BusSelectionManager: {fileID: 0}
   levelData:
   - {fileID: 11400000, guid: 6cadeb12984823945ba0fa3b783ca1bb, type: 2}
   - {fileID: 11400000, guid: d070e86a5c804eb4d8f101a195defff4, type: 2}
+  - {fileID: 11400000, guid: 6278e47903805904784de7f16a73f716, type: 2}
+  - {fileID: 11400000, guid: 2d1c6b108bff19f4680de9963e735839, type: 2}
+  - {fileID: 11400000, guid: 4e3227c601445234082ba43a351a4f00, type: 2}
+  - {fileID: 11400000, guid: 433e194d7cca83d47b8f5982d47d630e, type: 2}
+  - {fileID: 11400000, guid: 92907e009d278c642b236aa01a26d908, type: 2}
+  - {fileID: 11400000, guid: 9e999cb6acee59546865769fd7015ca7, type: 2}
+  - {fileID: 11400000, guid: 2f12e130a056a644487908778eeba685, type: 2}
+  - {fileID: 11400000, guid: 86159e78068d78246bfe2e052a4856c0, type: 2}
   busPrefabsList:
   - {fileID: 859809402377447911, guid: d94ec04615ca3cc4e883400989180fbf, type: 3}
   - {fileID: 859809402377447911, guid: 5ff71248622b0124aa5a8b025441d776, type: 3}
+  starWinningCondtions: []
+  currentLevelObject: {fileID: 0}

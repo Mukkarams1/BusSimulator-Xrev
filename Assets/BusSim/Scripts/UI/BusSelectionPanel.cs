@@ -11,6 +11,8 @@ public class BusSelectionPanel : MonoBehaviour
    
     int currentBusIndex = 0;
     GameObject currentBus;
+    public Bus currentBusSpec;
+    public BusSelectionManager manager;
     #region Btns
     [SerializeField]
     Button NextBtn;
@@ -19,9 +21,9 @@ public class BusSelectionPanel : MonoBehaviour
     [SerializeField]
     Button PrevBtn;
     [SerializeField]
-    Button Selectbtn;
+    public Button Selectbtn;
     [SerializeField]
-    Button buyButton;
+    public GameObject buyButton;
     #endregion
     private void OnEnable()
     {
@@ -30,10 +32,12 @@ public class BusSelectionPanel : MonoBehaviour
     }
     private void Awake()
     {
+        manager = GetComponent<BusSelectionManager>();
         NextBtn.onClick.AddListener(OnNextClicked);
         PrevBtn.onClick.AddListener(OnPrevClicked);
         CloseBtn.onClick.AddListener(OnClickClose);
         Selectbtn.onClick.AddListener(OnClickSelect);
+        
     }
     private void OnDisable()
     {
@@ -43,18 +47,27 @@ public class BusSelectionPanel : MonoBehaviour
         /// may do it with pooling later
         if (currentBus != null)
             DeleteBus();
+        manager.GetAllUnlockedBussed();
         currentBus = Instantiate(LevelsDataManager.Instance.busPrefabsList[Index],Vector3.back,Quaternion.Inverse(Quaternion.identity));
-        currentBus.GetComponent<Bus>().FreezeBus(true);
-        for(int i = 0; i<LevelsDataManager.Instance.BusSelectionManager.UnlockedBusses.Count; i++)
+        currentBus.GetComponent<BusController>().FreezeBus(true);
+        currentBusSpec = currentBus.GetComponent<BusController>().busSpecs;
+        buyButton.gameObject.SetActive(true);
+        for (int i = 0; i< manager.UnlockedBusses.Count; i++)
         {
-            if (LevelsDataManager.Instance.BusSelectionManager.UnlockedBusses[i] == Index)
+            if (manager.UnlockedBusses[i] == Index)
             {
-                //UnloackBus
+                UnlockBus();
 
             }
         }
     }
-    
+
+    private void UnlockBus()
+    {
+        buyButton.gameObject.SetActive(false);
+        Selectbtn.gameObject.SetActive(true);
+    }
+
     void DeleteBus()
     {
         Destroy(currentBus);

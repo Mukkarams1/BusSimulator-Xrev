@@ -11,7 +11,7 @@ public class LevelsDataManager : GenericSingletonClass<LevelsDataManager>
     [SerializeField]
     public List<Leveldata> levelData;
     [SerializeField]
-    public List<GameObject> busPrefabsList = new List<GameObject>();
+    public List<GameObject> busPrefabsList; //= new List<GameObject>();
 
     public int currentLevel { get; private set; }
     public int totalStopsInLevel { get; private set; } = 0;
@@ -186,11 +186,11 @@ public class LevelsDataManager : GenericSingletonClass<LevelsDataManager>
 
                 break;
             case gameModesEnum.Parking:
-                StartCoroutine(LoadYourAsyncScene(4));
+                StartCoroutine(LoadYourAsyncScene(2));
 
                 break;
             case gameModesEnum.Obstacle:
-                StartCoroutine(LoadYourAsyncScene(5));
+                StartCoroutine(LoadYourAsyncScene(3));
 
                 break;
             case gameModesEnum.racingMode:
@@ -198,7 +198,7 @@ public class LevelsDataManager : GenericSingletonClass<LevelsDataManager>
 
                 break;
             case gameModesEnum.Free:
-                StartCoroutine(LoadYourAsyncScene(7));
+                StartCoroutine(LoadYourAsyncScene(4));
 
                 break;
             case gameModesEnum.None:

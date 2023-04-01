@@ -991,7 +991,7 @@ GameObject:
   - component: {fileID: 859809402377447906}
   - component: {fileID: 859809402377447909}
   - component: {fileID: 859809402377447908}
-  - component: {fileID: 3569216718405321776}
+  - component: {fileID: 3680010585447965061}
   m_Layer: 8
   m_Name: bus2
   m_TagString: Player
@@ -1406,7 +1406,7 @@ MonoBehaviour:
   useNOS: 0
   useTurbo: 0
   attachedTrailer: {fileID: 0}
---- !u!114 &3569216718405321776
+--- !u!114 &3680010585447965061
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1415,7 +1415,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 859809402377447911}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d53befc93b0cda94e8094d8e972817b0, type: 3}
+  m_Script: {fileID: 11500000, guid: 346af82727881524e8322e60a503df6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
@@ -1427,6 +1427,7 @@ MonoBehaviour:
   currentRoute: []
   currentState: 0
   controller: {fileID: 859809402377447908}
+  busSpecs: {fileID: 11400000, guid: aeb531ac6eefa204e86121f492005bd9, type: 2}
 --- !u!1 &859809402462009430
 GameObject:
   m_ObjectHideFlags: 0

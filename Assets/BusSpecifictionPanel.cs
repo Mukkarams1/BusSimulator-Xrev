@@ -17,6 +17,7 @@ public class BusSpecifictionPanel : MonoBehaviour
     [SerializeField] Slider accelerationText;
     [SerializeField] Slider MaxSpeedText;
     [SerializeField] Slider BrakeText;
+    [SerializeField] TMP_Text price;
     // Start is called before the first frame update
     void Start()
     {
@@ -42,7 +43,16 @@ public class BusSpecifictionPanel : MonoBehaviour
         BrakeText.value = bus.brakeTorque/20000;
         accelerationText.value = bus.maxEngineTorque/2000;
         handlingText.value = bus.TCSStrength/3f;
-
+        if(bus.GetComponent<BusController>().busSpecs.coinsRequireToUnlock != 0)
+        {
+            price.gameObject.SetActive(true);
+            price.text ="Price : " + bus.GetComponent<BusController>().busSpecs.coinsRequireToUnlock.ToString();
+        }
+        else
+        {
+            price.gameObject.SetActive(false);
+        }
+        
         Debug.Log("maxspeed = " + bus.maxspeed + " brakeTorque = " + bus.brakeTorque + " maxEngineTorque = " + bus.maxEngineTorque + " TCSStrength = "  + bus.TCSStrength);
     }
 }

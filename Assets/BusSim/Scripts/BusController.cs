@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bus : MonoBehaviour
+public class BusController : MonoBehaviour
 {
 
     // Properties
@@ -14,6 +14,7 @@ public class Bus : MonoBehaviour
     public List<Vector3> currentRoute;
     public BusState currentState;
     public RCC_CarControllerV3 controller;
+    public Bus busSpecs;
 
     private void OnEnable()
     {
