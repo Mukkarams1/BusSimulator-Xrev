@@ -24,3 +24,4 @@ MonoBehaviour:
   - Hit Max Speed of 10
   - Complete Round in 50sec
   - Complete Round.
+  levelWeather: 1

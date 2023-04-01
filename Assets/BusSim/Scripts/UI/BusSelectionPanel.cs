@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +20,8 @@ public class BusSelectionPanel : MonoBehaviour
     Button PrevBtn;
     [SerializeField]
     Button Selectbtn;
+    [SerializeField]
+    Button buyButton;
     #endregion
     private void OnEnable()
     {
@@ -42,7 +45,16 @@ public class BusSelectionPanel : MonoBehaviour
             DeleteBus();
         currentBus = Instantiate(LevelsDataManager.Instance.busPrefabsList[Index],Vector3.back,Quaternion.Inverse(Quaternion.identity));
         currentBus.GetComponent<Bus>().FreezeBus(true);
+        for(int i = 0; i<LevelsDataManager.Instance.BusSelectionManager.UnlockedBusses.Count; i++)
+        {
+            if (LevelsDataManager.Instance.BusSelectionManager.UnlockedBusses[i] == Index)
+            {
+                //UnloackBus
+
+            }
+        }
     }
+    
     void DeleteBus()
     {
         Destroy(currentBus);

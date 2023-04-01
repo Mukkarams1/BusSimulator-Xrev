@@ -24,4 +24,6 @@ public class Leveldata : ScriptableObject
     public int starWinTimer;
     [SerializeField]
     public List<String> StarWinningConditions;
+    [SerializeField]
+    public WeatherEnum levelWeather;
 }

@@ -68,8 +68,8 @@ public class CarrierModeManager : MonoBehaviour
         {
             carController = FindObjectOfType<RCC_CarControllerV3>();
         }
-        starsText.text = "StarsWon : " + LevelsDataManager.Instance.starWon;
-        coinText.text = "Coins : " + WalletDataManager.Instance.coins;
+        starsText.text =  LevelsDataManager.Instance.starWon.ToString();
+        coinText.text = WalletDataManager.Instance.coins.ToString();
        // gemText.text = "Gems = " + WalletDataManager.Instance.gems;
 
     }
@@ -285,6 +285,6 @@ public class CarrierModeManager : MonoBehaviour
     void ShowTime(float remainingTime)
     {
         currenttime =(int)remainingTime;
-        timerText.text = "Timer : " + remainingTime.ToString()+"s";
+        timerText.text = remainingTime.ToString()+"s";
     }
 }

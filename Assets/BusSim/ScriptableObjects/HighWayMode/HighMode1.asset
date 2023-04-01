@@ -20,4 +20,5 @@ MonoBehaviour:
   allowedHits: 3
   hitSpeed: 10
   starWinTimer: 50
-  starWon: 0
+  StarWinningConditions: []
+  levelWeather: 2

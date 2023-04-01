@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class LevelsDataManager : GenericSingletonClass<LevelsDataManager>
 {
+    public BusSelectionManager BusSelectionManager;
     [SerializeField]
     public List<Leveldata> levelData;
     [SerializeField]
@@ -23,6 +24,7 @@ public class LevelsDataManager : GenericSingletonClass<LevelsDataManager>
 
 
     public gameModesEnum currentGameMode { get; set; }
+    public WeatherEnum weather { get; set; }
 
     public List<string> starWinningCondtions = new List<string>();
     int currentBusModelIndex;
@@ -94,6 +96,7 @@ public class LevelsDataManager : GenericSingletonClass<LevelsDataManager>
     {
         currentLevel = level;
         var currentlevelData = getLevelData(currentGameMode, currentLevel);
+        weather = currentlevelData.levelWeather;
         Objective = currentlevelData.objective;
         //starWinningCondtions.Clear();
         starWinningCondtions = currentlevelData.StarWinningConditions;
@@ -105,13 +108,14 @@ public class LevelsDataManager : GenericSingletonClass<LevelsDataManager>
     void LoadLevel()
     {
         var currentlevelData = getLevelData(currentGameMode, currentLevel);
-       
+        AllowedHits = currentlevelData.allowedHits;
+        starWinningTime = currentlevelData.starWinTimer;
+        starWinningSpeed = currentlevelData.hitSpeed;
         InstantiateLevel(currentlevelData.LevelDataGameObject);
         InstantiateBus();
         totalStopsInLevel = currentLevelObject.transform.Find("BusStops").transform.childCount;
-        starWinningTime = currentlevelData.starWinTimer;
-        starWinningSpeed = currentlevelData.hitSpeed;
-        AllowedHits = currentlevelData.allowedHits;
+        
+        
         GetSetStars();
         starWon = 0;
         
@@ -228,5 +232,6 @@ public class LevelsDataManager : GenericSingletonClass<LevelsDataManager>
 
     }
 }
+
 
 

@@ -40,8 +40,8 @@ public class ObstacleModeManager : MonoBehaviour
     {
      timerText.gameObject.SetActive(false);
 
-        
 
+        
         EventManager.onBusStopReach += BusStopReached;
         EventManager.onPauseGame += PauseGame;
         EventManager.onResumeGame += ResumeGame;
@@ -50,6 +50,7 @@ public class ObstacleModeManager : MonoBehaviour
         EventManager.onBusCollision += BusCollision;
         EventManager.onStarWinningSpeed += SetStarsWon;
         EventManager.onLevelComplete += levelCompleted;
+
     }
     private void OnDisable()
     {
@@ -67,8 +68,8 @@ public class ObstacleModeManager : MonoBehaviour
         {
             carController = FindObjectOfType<RCC_CarControllerV3>();
         }
-        starsText.text = "StarsWon : " + LevelsDataManager.Instance.starWon;
-        coinText.text = "Coins : " + WalletDataManager.Instance.coins;
+        starsText.text = LevelsDataManager.Instance.starWon.ToString();
+        coinText.text = WalletDataManager.Instance.coins.ToString();
         //gemText.text = "Gems = " + WalletDataManager.Instance.gems;
 
     }
@@ -88,7 +89,7 @@ public class ObstacleModeManager : MonoBehaviour
         {
             delay_in_Collosion_Timer = 0;
             CollisionCounter++;
-            collosionCounterText.text ="Hit Count : " + CollisionCounter.ToString();
+            collosionCounterText.text ="Hit Count : " + LevelsDataManager.Instance.AllowedHits + "/" + CollisionCounter.ToString();
 
         }
         
@@ -240,6 +241,7 @@ public class ObstacleModeManager : MonoBehaviour
     }
     public void NewLevelLoaded()
     {
+        collosionCounterText.text = "Hit Count : " + LevelsDataManager.Instance.AllowedHits + "/0";
         StopAllCoroutines();
         ResetVariables();
         RCCCanvas.SetActive(true);
@@ -264,6 +266,6 @@ public class ObstacleModeManager : MonoBehaviour
     void ShowTime(float remainingTime)
     {
         currenttime =(int)remainingTime;
-        timerText.text ="Timer : " + remainingTime.ToString()+"s";
+        timerText.text =remainingTime.ToString()+"s";
     }
 }
