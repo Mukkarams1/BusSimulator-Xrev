@@ -90,6 +90,8 @@ public class UIManager : MonoBehaviour
         levelSelectionPanel.gameObject.SetActive(false);
         ObjectivePAnel.gameObject.SetActive(true);
         StartBtn.gameObject.SetActive(true);
+
+
     }
     public void ShowPlayBtn()
     {
