@@ -621,6 +621,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParkingEnvironment (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7448361820416636607, guid: ac395abf26ed6ac46a5720a6c577a57a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7448361820528766227, guid: ac395abf26ed6ac46a5720a6c577a57a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7612288590587634494, guid: ac395abf26ed6ac46a5720a6c577a57a, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -952,3 +960,4 @@ MonoBehaviour:
   gemText: {fileID: 603359072}
   Riders: []
   carController: {fileID: 0}
+  firework: {fileID: 1906021416640072, guid: eb184d077caaac64daa0e371c7dc8620, type: 3}

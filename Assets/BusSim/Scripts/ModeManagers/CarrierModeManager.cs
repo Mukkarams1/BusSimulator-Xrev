@@ -35,6 +35,7 @@ public class CarrierModeManager : MonoBehaviour
     int ridertobepicked = 0;
 
     public RCC_CarControllerV3 carController;
+    public GameObject firework;
     private void Start()
     {
      timerText.gameObject.SetActive(false);
@@ -111,10 +112,22 @@ public class CarrierModeManager : MonoBehaviour
             {
             var stop = obj.transform.GetChild(0).transform;
                 DropOff(stop);
-               
+                DoFireWorks(obj);
 
             }
          
+    }
+
+    private void DoFireWorks(Transform parent)
+    {
+       var fireworkobj = Instantiate(firework, parent.position , Quaternion.identity);
+        StartCoroutine(destroyFireWorks(fireworkobj));
+        
+    }
+    IEnumerator destroyFireWorks(GameObject firework)
+    {
+        yield return new WaitForSeconds(5f);
+        Destroy(firework);
     }
 
     private void DropOff(Transform obj)
@@ -176,12 +189,17 @@ public class CarrierModeManager : MonoBehaviour
                     EventManager.LevelCompleted();
                     isLevelComplete = true;
                     //level completed successfully
-                    ShowLevelCompletionPanel(true);
+                    StartCoroutine(showlevelCompletionAfterDelay());
                 }
               
             }
         });
         yield return null;
+    }
+    IEnumerator showlevelCompletionAfterDelay()
+    {
+        yield return new WaitForSeconds(1f);
+        ShowLevelCompletionPanel(true);
     }
     private void ResetVariables()
     {

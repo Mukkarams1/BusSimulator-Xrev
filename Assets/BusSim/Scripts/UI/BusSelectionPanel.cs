@@ -48,7 +48,7 @@ public class BusSelectionPanel : MonoBehaviour
         if (currentBus != null)
             DeleteBus();
         manager.GetAllUnlockedBussed();
-        currentBus = Instantiate(LevelsDataManager.Instance.busPrefabsList[Index],Vector3.back,Quaternion.Inverse(Quaternion.identity));
+        currentBus = Instantiate(LevelsDataManager.Instance.busPrefabsList[Index],Vector3.back, Quaternion.Euler(0, 220, 0));
         currentBus.GetComponent<BusController>().FreezeBus(true);
         currentBusSpec = currentBus.GetComponent<BusController>().busSpecs;
         buyButton.gameObject.SetActive(true);
