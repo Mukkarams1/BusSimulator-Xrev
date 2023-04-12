@@ -33,6 +33,7 @@ public class ParkingModeManager: MonoBehaviour
     float time_Before_Collision;
 
     public RCC_CarControllerV3 carController;
+    public GameObject firework;
     private void Start()
     {
      timerText.gameObject.SetActive(false);
@@ -75,7 +76,7 @@ public class ParkingModeManager: MonoBehaviour
     {
         SetStarsWon();
         var lefttime = currenttime - LevelsDataManager.Instance.starWinningTime ;
-        if(lefttime > 0)
+        if(lefttime + 5 > 0)
         {
             SetStarsWon();
         }
@@ -107,14 +108,31 @@ public class ParkingModeManager: MonoBehaviour
         
             if (currentStopNumber == LevelsDataManager.Instance.totalStopsInLevel)
             {
-
-                EventManager.LevelCompleted();
+            carController.rigid.isKinematic = true;
+            EventManager.LevelCompleted();
                 isLevelComplete = true;
-                //level completed successfully
-                ShowLevelCompletionPanel(true);
+            //level completed successfully
+            DoFireWorks(obj);
+            StartCoroutine(showlevelCompletionAfterDelay());
 
             }
          
+    }
+    IEnumerator showlevelCompletionAfterDelay()
+    {
+        yield return new WaitForSeconds(5f);
+        ShowLevelCompletionPanel(true);
+    }
+    private void DoFireWorks(Transform parent)
+    {
+        var fireworkobj = Instantiate(firework, parent.position, Quaternion.identity);
+        StartCoroutine(destroyFireWorks(fireworkobj));
+
+    }
+    IEnumerator destroyFireWorks(GameObject firework)
+    {
+        yield return new WaitForSeconds(5f);
+        Destroy(firework);
     }
 
     private void DropOff(Transform obj)
@@ -234,6 +252,7 @@ public class ParkingModeManager: MonoBehaviour
     }
     public void NewLevelLoaded()
     {
+        //carController.rigid.isKinematic = false;
         StopAllCoroutines();
         ResetVariables();
         RCCCanvas.SetActive(true);

@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &140330601
 Transform:
@@ -60,7 +60,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &273183710
 Transform:
@@ -105,7 +105,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &523393475
 Transform:
@@ -161,7 +161,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &587241887
 Transform:
@@ -206,7 +206,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &704562926
 Transform:
@@ -250,7 +250,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &740898923
 Transform:
@@ -312,7 +312,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &904815619
 Transform:
@@ -357,7 +357,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &932355766
 Transform:
@@ -402,7 +402,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1201783141
 Transform:
@@ -446,7 +446,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1287069545
 Transform:
@@ -481,7 +481,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1339956897
 Transform:
@@ -526,7 +526,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1360593382
 Transform:
@@ -571,7 +571,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1456545955
 Transform:
@@ -616,7 +616,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1803927086
 Transform:
@@ -660,7 +660,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1931664008
 Transform:
@@ -693,7 +693,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3145384511299901778
 Transform:
@@ -724,7 +724,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1659013310375071645
 Transform:
@@ -770,7 +770,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6523506542903470762
 Transform:
@@ -882,7 +882,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7617987522466036705
 Transform:
@@ -990,7 +990,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4168312045256079180
 Transform:
@@ -1021,7 +1021,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1588511191774646797
 Transform:
@@ -1054,7 +1054,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8896721711863596742
 Transform:
@@ -1081,6 +1081,10 @@ PrefabInstance:
     - target: {fileID: 1294733841131794, guid: cd89c56a1fcd0534a946f51a4cf9e51b, type: 3}
       propertyPath: m_Name
       value: FX_Direction_Arrows_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294733841131794, guid: cd89c56a1fcd0534a946f51a4cf9e51b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4776653709342072, guid: cd89c56a1fcd0534a946f51a4cf9e51b, type: 3}
       propertyPath: m_RootOrder
@@ -1152,9 +1156,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6523506542903470762}
     m_Modifications:
+    - target: {fileID: 151920881395052490, guid: 48c5715f9603c3842a353516a8baefbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531768878563115421, guid: 48c5715f9603c3842a353516a8baefbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3220440682565326704, guid: 48c5715f9603c3842a353516a8baefbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3377181292992421420, guid: 48c5715f9603c3842a353516a8baefbb, type: 3}
       propertyPath: m_Name
       value: Magic circle 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3377181292992421420, guid: 48c5715f9603c3842a353516a8baefbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3423388300971593625, guid: 48c5715f9603c3842a353516a8baefbb, type: 3}
       propertyPath: m_RootOrder
@@ -1212,6 +1232,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8598798586939600705, guid: 48c5715f9603c3842a353516a8baefbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48c5715f9603c3842a353516a8baefbb, type: 3}
 --- !u!4 &345781310975342514 stripped
@@ -1229,6 +1253,10 @@ PrefabInstance:
     - target: {fileID: 1294733841131794, guid: cd89c56a1fcd0534a946f51a4cf9e51b, type: 3}
       propertyPath: m_Name
       value: FX_Direction_Arrows_02 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294733841131794, guid: cd89c56a1fcd0534a946f51a4cf9e51b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4776653709342072, guid: cd89c56a1fcd0534a946f51a4cf9e51b, type: 3}
       propertyPath: m_RootOrder
@@ -1304,6 +1332,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrier Heavy (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1406288349017890, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4096002421225946, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1375,9 +1407,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1931664008}
     m_Modifications:
+    - target: {fileID: 1583561026513616, guid: c5cf0d7288694a4469b194cb424d20bd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1742271052185720, guid: c5cf0d7288694a4469b194cb424d20bd, type: 3}
       propertyPath: m_Name
       value: Bus stop prefab (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742271052185720, guid: c5cf0d7288694a4469b194cb424d20bd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4527107140670738, guid: c5cf0d7288694a4469b194cb424d20bd, type: 3}
       propertyPath: m_RootOrder
@@ -1452,6 +1492,10 @@ PrefabInstance:
     - target: {fileID: 1406288349017890, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
       propertyPath: m_Name
       value: Barrier Heavy (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1406288349017890, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4096002421225946, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
       propertyPath: m_RootOrder
@@ -1528,6 +1572,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrier Heavy (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 1406288349017890, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4096002421225946, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -1599,9 +1647,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1931664008}
     m_Modifications:
+    - target: {fileID: 1583561026513616, guid: 30916da9dd66da74d8e831f29c0b250f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1742271052185720, guid: 30916da9dd66da74d8e831f29c0b250f, type: 3}
       propertyPath: m_Name
       value: Bus stop prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742271052185720, guid: 30916da9dd66da74d8e831f29c0b250f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4527107140670738, guid: 30916da9dd66da74d8e831f29c0b250f, type: 3}
       propertyPath: m_RootOrder
@@ -1677,6 +1733,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrier Heavy (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 1406288349017890, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4096002421225946, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -1751,6 +1811,10 @@ PrefabInstance:
     - target: {fileID: 1498720108242694, guid: 81bbc4e0fa172a54e9f291ecccaec2c7, type: 3}
       propertyPath: m_Name
       value: Barrier Plastic
+      objectReference: {fileID: 0}
+    - target: {fileID: 1498720108242694, guid: 81bbc4e0fa172a54e9f291ecccaec2c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4404025759862344, guid: 81bbc4e0fa172a54e9f291ecccaec2c7, type: 3}
       propertyPath: m_RootOrder
@@ -1839,6 +1903,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrier Heavy (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 1406288349017890, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4096002421225946, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -1913,6 +1981,10 @@ PrefabInstance:
     - target: {fileID: 1406288349017890, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
       propertyPath: m_Name
       value: Barrier Heavy (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1406288349017890, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4096002421225946, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
       propertyPath: m_RootOrder
@@ -1989,6 +2061,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrier Heavy (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1406288349017890, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4096002421225946, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -2063,6 +2139,10 @@ PrefabInstance:
     - target: {fileID: 1406288349017890, guid: e74cc5dcccf056846b28e67dac84038e, type: 3}
       propertyPath: m_Name
       value: Barrier Heavy (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1406288349017890, guid: e74cc5dcccf056846b28e67dac84038e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4096002421225946, guid: e74cc5dcccf056846b28e67dac84038e, type: 3}
       propertyPath: m_RootOrder
@@ -2139,6 +2219,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrier Heavy (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 1406288349017890, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4096002421225946, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -2213,6 +2297,10 @@ PrefabInstance:
     - target: {fileID: 1498720108242694, guid: 81bbc4e0fa172a54e9f291ecccaec2c7, type: 3}
       propertyPath: m_Name
       value: Barrier Plastic
+      objectReference: {fileID: 0}
+    - target: {fileID: 1498720108242694, guid: 81bbc4e0fa172a54e9f291ecccaec2c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4404025759862344, guid: 81bbc4e0fa172a54e9f291ecccaec2c7, type: 3}
       propertyPath: m_RootOrder
@@ -2289,6 +2377,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrier Plastic (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1498720108242694, guid: 81bbc4e0fa172a54e9f291ecccaec2c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4404025759862344, guid: 81bbc4e0fa172a54e9f291ecccaec2c7, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -2363,6 +2455,10 @@ PrefabInstance:
     - target: {fileID: 1406288349017890, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
       propertyPath: m_Name
       value: Barrier Heavy (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1406288349017890, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4096002421225946, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
       propertyPath: m_RootOrder
@@ -2439,6 +2535,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrier Heavy
       objectReference: {fileID: 0}
+    - target: {fileID: 1406288349017890, guid: e74cc5dcccf056846b28e67dac84038e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4096002421225946, guid: e74cc5dcccf056846b28e67dac84038e, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -2513,6 +2613,10 @@ PrefabInstance:
     - target: {fileID: 1406288349017890, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
       propertyPath: m_Name
       value: Barrier Heavy (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1406288349017890, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4096002421225946, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
       propertyPath: m_RootOrder
@@ -2589,6 +2693,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrier Heavy (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 1406288349017890, guid: e74cc5dcccf056846b28e67dac84038e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4096002421225946, guid: e74cc5dcccf056846b28e67dac84038e, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -2663,6 +2771,10 @@ PrefabInstance:
     - target: {fileID: 1406288349017890, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
       propertyPath: m_Name
       value: Barrier Heavy (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1406288349017890, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4096002421225946, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
       propertyPath: m_RootOrder
@@ -2739,6 +2851,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrier Heavy (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1406288349017890, guid: e74cc5dcccf056846b28e67dac84038e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4096002421225946, guid: e74cc5dcccf056846b28e67dac84038e, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -2813,6 +2929,10 @@ PrefabInstance:
     - target: {fileID: 1406288349017890, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
       propertyPath: m_Name
       value: Barrier Heavy (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1406288349017890, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4096002421225946, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
       propertyPath: m_RootOrder
@@ -2889,6 +3009,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrier Heavy (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 1406288349017890, guid: e74cc5dcccf056846b28e67dac84038e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4096002421225946, guid: e74cc5dcccf056846b28e67dac84038e, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -2963,6 +3087,10 @@ PrefabInstance:
     - target: {fileID: 1406288349017890, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
       propertyPath: m_Name
       value: Barrier Heavy (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1406288349017890, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4096002421225946, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
       propertyPath: m_RootOrder
@@ -3039,6 +3167,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrier Plastic (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1498720108242694, guid: 81bbc4e0fa172a54e9f291ecccaec2c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4404025759862344, guid: 81bbc4e0fa172a54e9f291ecccaec2c7, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -3113,6 +3245,10 @@ PrefabInstance:
     - target: {fileID: 1406288349017890, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
       propertyPath: m_Name
       value: Barrier Heavy (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1406288349017890, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4096002421225946, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
       propertyPath: m_RootOrder
@@ -3189,6 +3325,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrier Heavy (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 1406288349017890, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4096002421225946, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -3263,6 +3403,10 @@ PrefabInstance:
     - target: {fileID: 1498720108242694, guid: 81bbc4e0fa172a54e9f291ecccaec2c7, type: 3}
       propertyPath: m_Name
       value: Barrier Plastic (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1498720108242694, guid: 81bbc4e0fa172a54e9f291ecccaec2c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4404025759862344, guid: 81bbc4e0fa172a54e9f291ecccaec2c7, type: 3}
       propertyPath: m_RootOrder
@@ -3347,6 +3491,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrier Heavy (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 1406288349017890, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4096002421225946, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -3422,6 +3570,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrier Heavy (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 1406288349017890, guid: e74cc5dcccf056846b28e67dac84038e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4096002421225946, guid: e74cc5dcccf056846b28e67dac84038e, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -3496,6 +3648,10 @@ PrefabInstance:
     - target: {fileID: 1498720108242694, guid: 81bbc4e0fa172a54e9f291ecccaec2c7, type: 3}
       propertyPath: m_Name
       value: Barrier Plastic (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1498720108242694, guid: 81bbc4e0fa172a54e9f291ecccaec2c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4404025759862344, guid: 81bbc4e0fa172a54e9f291ecccaec2c7, type: 3}
       propertyPath: m_RootOrder
@@ -3580,6 +3736,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrier Heavy (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1406288349017890, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4096002421225946, guid: 8ebf2155e10a4f14ab835414d879b666, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -3654,6 +3814,10 @@ PrefabInstance:
     - target: {fileID: 1406288349017890, guid: e74cc5dcccf056846b28e67dac84038e, type: 3}
       propertyPath: m_Name
       value: Barrier Heavy (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1406288349017890, guid: e74cc5dcccf056846b28e67dac84038e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4096002421225946, guid: e74cc5dcccf056846b28e67dac84038e, type: 3}
       propertyPath: m_RootOrder
@@ -3730,6 +3894,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FX_Direction_Arrows_02 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1294733841131794, guid: cd89c56a1fcd0534a946f51a4cf9e51b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4776653709342072, guid: cd89c56a1fcd0534a946f51a4cf9e51b, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -3804,6 +3972,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FX_Direction_Arrows_02 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1294733841131794, guid: cd89c56a1fcd0534a946f51a4cf9e51b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4776653709342072, guid: cd89c56a1fcd0534a946f51a4cf9e51b, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -3874,9 +4046,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7617987522466036705}
     m_Modifications:
+    - target: {fileID: 151920881395052490, guid: 48c5715f9603c3842a353516a8baefbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531768878563115421, guid: 48c5715f9603c3842a353516a8baefbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3220440682565326704, guid: 48c5715f9603c3842a353516a8baefbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3377181292992421420, guid: 48c5715f9603c3842a353516a8baefbb, type: 3}
       propertyPath: m_Name
       value: Magic circle 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3377181292992421420, guid: 48c5715f9603c3842a353516a8baefbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3423388300971593625, guid: 48c5715f9603c3842a353516a8baefbb, type: 3}
       propertyPath: m_RootOrder
@@ -3934,6 +4122,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8598798586939600705, guid: 48c5715f9603c3842a353516a8baefbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48c5715f9603c3842a353516a8baefbb, type: 3}
 --- !u!4 &6800413332676436479 stripped
@@ -3951,6 +4143,10 @@ PrefabInstance:
     - target: {fileID: 1294733841131794, guid: cd89c56a1fcd0534a946f51a4cf9e51b, type: 3}
       propertyPath: m_Name
       value: FX_Direction_Arrows_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294733841131794, guid: cd89c56a1fcd0534a946f51a4cf9e51b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4776653709342072, guid: cd89c56a1fcd0534a946f51a4cf9e51b, type: 3}
       propertyPath: m_RootOrder
@@ -4026,6 +4222,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FX_Direction_Arrows_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1294733841131794, guid: cd89c56a1fcd0534a946f51a4cf9e51b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4776653709342072, guid: cd89c56a1fcd0534a946f51a4cf9e51b, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -4100,6 +4300,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FX_Direction_Arrows_02 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1294733841131794, guid: cd89c56a1fcd0534a946f51a4cf9e51b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4776653709342072, guid: cd89c56a1fcd0534a946f51a4cf9e51b, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -4173,6 +4377,10 @@ PrefabInstance:
     - target: {fileID: 1294733841131794, guid: cd89c56a1fcd0534a946f51a4cf9e51b, type: 3}
       propertyPath: m_Name
       value: FX_Direction_Arrows_02 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294733841131794, guid: cd89c56a1fcd0534a946f51a4cf9e51b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4776653709342072, guid: cd89c56a1fcd0534a946f51a4cf9e51b, type: 3}
       propertyPath: m_RootOrder

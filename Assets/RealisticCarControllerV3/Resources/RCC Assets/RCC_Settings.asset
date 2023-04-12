@@ -499,12 +499,12 @@ MonoBehaviour:
   UIButtonSensitivity: 1
   UIButtonGravity: 1
   gyroSensitivity: 1
-  useHeadLightsAsVertexLights: 0
+  useHeadLightsAsVertexLights: 1
   useBrakeLightsAsVertexLights: 1
   useReverseLightsAsVertexLights: 1
   useIndicatorLightsAsVertexLights: 1
   useOtherLightsAsVertexLights: 1
-  useLightProjectorForLightingEffect: 0
+  useLightProjectorForLightingEffect: 1
   setLayers: 1
   RCCLayer: RCC
   WheelColliderLayer: RCC_WheelCollider
@@ -567,5 +567,5 @@ MonoBehaviour:
   foldUISettings: 1
   foldWheelPhysics: 1
   foldSFX: 1
-  foldOptimization: 1
+  foldOptimization: 0
   foldTagsAndLayers: 1
