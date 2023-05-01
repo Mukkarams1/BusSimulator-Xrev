@@ -9,6 +9,7 @@ public class HomePanelUi : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+     MATS_AdsManager.Instance.ShowBanner();
         exitBtn.onClick.AddListener(exitApplication);
     }
 
