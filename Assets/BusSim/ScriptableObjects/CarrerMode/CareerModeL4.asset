@@ -15,7 +15,7 @@ MonoBehaviour:
   levelNumber: 4
   objective: Pick People from hotel and drop at other hotel
   levelMode: 1
-  LevelDataGameObject: {fileID: 8842799433291917136, guid: cbea5118b1ef1f44993157444d0402b1, type: 3}
+  LevelDataGameObject: {fileID: 8842799433291917136, guid: ca06f28e1210ab149bcaec0b9edf7e13, type: 3}
   timeInSec: 60
   allowedHits: 0
   hitSpeed: 50

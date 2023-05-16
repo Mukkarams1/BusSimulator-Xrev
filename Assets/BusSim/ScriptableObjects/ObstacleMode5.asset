@@ -15,7 +15,7 @@ MonoBehaviour:
   levelNumber: 5
   objective: Park The Bus Without Hiting Obstacle
   levelMode: 5
-  LevelDataGameObject: {fileID: 3719014265715228105, guid: 40e2f7d59104c7543bb007ee08ae693e, type: 3}
+  LevelDataGameObject: {fileID: 3719014265715228105, guid: 5dc1ff82ca6b636478f77d84bd5e3eb6, type: 3}
   timeInSec: 60
   allowedHits: 3
   hitSpeed: 10
