@@ -317,7 +317,7 @@ MonoBehaviour:
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
         leftParallelConnectorIndex: -1
-        maxSpeedLimit: 21
+        maxSpeedLimit: 17.5
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
@@ -337,7 +337,7 @@ MonoBehaviour:
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
         leftParallelConnectorIndex: -1
-        maxSpeedLimit: 21
+        maxSpeedLimit: 17.5
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
@@ -347,7 +347,7 @@ MonoBehaviour:
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
         leftParallelConnectorIndex: -1
-        maxSpeedLimit: 21
+        maxSpeedLimit: 17.5
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
@@ -357,7 +357,7 @@ MonoBehaviour:
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
         leftParallelConnectorIndex: -1
-        maxSpeedLimit: 42
+        maxSpeedLimit: 35
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
@@ -392,7 +392,7 @@ MonoBehaviour:
       rightParallelConnectorIndex: -1
       leftParallelPointIndex: -1
       leftParallelConnectorIndex: -1
-      maxSpeedLimit: 17.75
+      maxSpeedLimit: 17.5
       roadBlockAhead: 0
       nearbyPoints: []
     - point: {x: 97.98412, y: 0.0000029876828, z: -15.481903}
@@ -634,7 +634,7 @@ MonoBehaviour:
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
         leftParallelConnectorIndex: -1
-        maxSpeedLimit: 21
+        maxSpeedLimit: 17.5
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
@@ -664,7 +664,7 @@ MonoBehaviour:
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
         leftParallelConnectorIndex: -1
-        maxSpeedLimit: 42
+        maxSpeedLimit: 35
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
@@ -674,7 +674,7 @@ MonoBehaviour:
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
         leftParallelConnectorIndex: -1
-        maxSpeedLimit: 25.199999
+        maxSpeedLimit: 21
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
@@ -684,7 +684,7 @@ MonoBehaviour:
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
         leftParallelConnectorIndex: -1
-        maxSpeedLimit: 21
+        maxSpeedLimit: 17.5
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
@@ -694,7 +694,7 @@ MonoBehaviour:
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
         leftParallelConnectorIndex: -1
-        maxSpeedLimit: 25.199999
+        maxSpeedLimit: 21
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
@@ -739,7 +739,7 @@ MonoBehaviour:
       rightParallelConnectorIndex: -1
       leftParallelPointIndex: -1
       leftParallelConnectorIndex: -1
-      maxSpeedLimit: 17.75
+      maxSpeedLimit: 17.5
       roadBlockAhead: 0
       nearbyPoints: []
     - point: {x: 92.207016, y: 0.0000030100346, z: -77.89784}
@@ -793,7 +793,7 @@ MonoBehaviour:
       rightParallelConnectorIndex: -1
       leftParallelPointIndex: -1
       leftParallelConnectorIndex: -1
-      maxSpeedLimit: 35.5
+      maxSpeedLimit: 35
       roadBlockAhead: 0
       nearbyPoints: []
     - point: {x: 83.19641, y: 0.113864124, z: -77.91068}
@@ -1053,7 +1053,7 @@ MonoBehaviour:
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
         leftParallelConnectorIndex: -1
-        maxSpeedLimit: 21
+        maxSpeedLimit: 17.5
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
@@ -1063,7 +1063,7 @@ MonoBehaviour:
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
         leftParallelConnectorIndex: -1
-        maxSpeedLimit: 33.6
+        maxSpeedLimit: 28
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
@@ -1073,7 +1073,7 @@ MonoBehaviour:
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
         leftParallelConnectorIndex: -1
-        maxSpeedLimit: 42
+        maxSpeedLimit: 35
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
@@ -1083,7 +1083,7 @@ MonoBehaviour:
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
         leftParallelConnectorIndex: -1
-        maxSpeedLimit: 42
+        maxSpeedLimit: 35
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
@@ -1093,7 +1093,7 @@ MonoBehaviour:
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
         leftParallelConnectorIndex: -1
-        maxSpeedLimit: 42
+        maxSpeedLimit: 35
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
@@ -1103,7 +1103,7 @@ MonoBehaviour:
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
         leftParallelConnectorIndex: -1
-        maxSpeedLimit: 33.6
+        maxSpeedLimit: 28
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
@@ -1113,7 +1113,7 @@ MonoBehaviour:
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
         leftParallelConnectorIndex: -1
-        maxSpeedLimit: 25.199999
+        maxSpeedLimit: 21
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
@@ -1123,7 +1123,7 @@ MonoBehaviour:
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
         leftParallelConnectorIndex: -1
-        maxSpeedLimit: 25.199999
+        maxSpeedLimit: 21
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
@@ -1133,7 +1133,7 @@ MonoBehaviour:
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
         leftParallelConnectorIndex: -1
-        maxSpeedLimit: 33.6
+        maxSpeedLimit: 28
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
@@ -1143,7 +1143,7 @@ MonoBehaviour:
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
         leftParallelConnectorIndex: -1
-        maxSpeedLimit: 42
+        maxSpeedLimit: 35
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
@@ -1218,7 +1218,7 @@ MonoBehaviour:
       rightParallelConnectorIndex: -1
       leftParallelPointIndex: -1
       leftParallelConnectorIndex: -1
-      maxSpeedLimit: 17.75
+      maxSpeedLimit: 17.5
       roadBlockAhead: 0
       nearbyPoints: []
     - point: {x: 3.6060925, y: 0.0000029876828, z: -86.10672}
@@ -1325,24 +1325,24 @@ MonoBehaviour:
   - laneLinkRight: -1
     laneLinkLeft: -1
     totalDistance: 44.468636
-    maxSpeed: 50
+    maxSpeed: 10
     conectorA: {x: -13.529881, y: 0.0000030100346, z: -117.34796}
     conectorB: {x: -57.99746, y: 0.0000030100346, z: -117.04155}
     middlePoints:
     - {x: -35.76367, y: 0.0000030100346, z: -117.194756}
-    vehicleType: -1
-    laneWidth: 2
+    vehicleType: -257
+    laneWidth: 0.95
     connectors:
     - laneLinkRight: -1
       laneLinkLeft: -1
-      totalDistance: 18.606314
+      totalDistance: 15.620821
       maxSpeed: 50
       conectorA: {x: -57.99746, y: 0.0000030100346, z: -117.04155}
-      conectorB: {x: -72.67406, y: 0.0000029876828, z: -110.48364}
+      conectorB: {x: -71.88802, y: 0.0000029876828, z: -113.47646}
       middlePoints:
-      - {x: -70.35871, y: 0.0000029988587, z: -115.94922}
+      - {x: -69.81096, y: 0.0000029988587, z: -116.43788}
       vehicleType: -1
-      nextLane: 4
+      nextLane: 10
       previousLane: 3
       forcedStop: 0
       points:
@@ -1352,7 +1352,7 @@ MonoBehaviour:
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
         leftParallelConnectorIndex: -1
-        maxSpeedLimit: 21
+        maxSpeedLimit: 17.5
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
@@ -1366,8 +1366,8 @@ MonoBehaviour:
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
-      - point: {x: -59.11464, y: 0.0000030100346, z: -116.98394}
-        distanceToNextPoint: 1.1186643
+      - point: {x: -59.11646, y: 0.0000030100346, z: -117.00826}
+        distanceToNextPoint: 1.1194944
         rightParallelPointIndex: -1
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
@@ -1376,8 +1376,8 @@ MonoBehaviour:
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
-      - point: {x: -60.696484, y: 0.0000029876828, z: -116.94196}
-        distanceToNextPoint: 1.5824012
+      - point: {x: -60.709007, y: 0.0000029876828, z: -116.98308}
+        distanceToNextPoint: 1.5927474
         rightParallelPointIndex: -1
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
@@ -1386,8 +1386,8 @@ MonoBehaviour:
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
-      - point: {x: -62.57991, y: 0.0000029876828, z: -116.89175}
-        distanceToNextPoint: 1.884096
+      - point: {x: -62.59974, y: 0.0000029876828, z: -116.95172}
+        distanceToNextPoint: 1.8909918
         rightParallelPointIndex: -1
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
@@ -1396,8 +1396,8 @@ MonoBehaviour:
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
-      - point: {x: -64.60184, y: 0.0000029876828, z: -116.8094}
-        distanceToNextPoint: 2.023603
+      - point: {x: -64.61329, y: 0.0000029876828, z: -116.89991}
+        distanceToNextPoint: 2.0142162
         rightParallelPointIndex: -1
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
@@ -1406,38 +1406,8 @@ MonoBehaviour:
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
-      - point: {x: -66.599174, y: 0.0000030100346, z: -116.67107}
-        distanceToNextPoint: 2.0021222
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 42
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: -68.40885, y: 0.0000030100346, z: -116.45284}
-        distanceToNextPoint: 1.822787
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 21
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: -70.35871, y: 0.0000029876828, z: -115.94922}
-        distanceToNextPoint: 2.0138495
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 21
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: -72.03836, y: 0.0000029876828, z: -114.05209}
-        distanceToNextPoint: 2.5338323
+      - point: {x: -66.574295, y: 0.0000030100346, z: -116.813385}
+        distanceToNextPoint: 1.9629141
         rightParallelPointIndex: -1
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
@@ -1446,8 +1416,28 @@ MonoBehaviour:
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
-      - point: {x: -72.4816, y: 0.0000029876828, z: -111.69532}
-        distanceToNextPoint: 2.3980908
+      - point: {x: -68.3074, y: 0.0000030100346, z: -116.677864}
+        distanceToNextPoint: 1.738399
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 17.5
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: -69.81096, y: 0.0000030100346, z: -116.43788}
+        distanceToNextPoint: 1.5225867
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 17.5
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: -71.63937, y: 0.0000029876828, z: -114.728386}
+        distanceToNextPoint: 2.5030932
         rightParallelPointIndex: -1
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
@@ -1456,8 +1446,8 @@ MonoBehaviour:
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
-      - point: {x: -72.67406, y: 0.0000029876828, z: -110.48364}
-        distanceToNextPoint: 1.2268672
+      - point: {x: -71.88802, y: 0.0000029876828, z: -113.47646}
+        distanceToNextPoint: 1.2763765
         rightParallelPointIndex: -1
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
@@ -1477,7 +1467,7 @@ MonoBehaviour:
       rightParallelConnectorIndex: -1
       leftParallelPointIndex: -1
       leftParallelConnectorIndex: -1
-      maxSpeedLimit: 17.75
+      maxSpeedLimit: 17.5
       roadBlockAhead: 0
       nearbyPoints: []
     - point: {x: -13.529881, y: 0.0000030100346, z: -117.34796}
@@ -1635,652 +1625,6 @@ MonoBehaviour:
       nearbyPoints: []
     - point: {x: -57.99746, y: 0.0000030100346, z: -117.04155}
       distanceToNextPoint: 1.3303998
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 1000
-      roadBlockAhead: 0
-      nearbyPoints: []
-    trafficDensity: 1
-    maxTotalOccupation: 75
-  - laneLinkRight: -1
-    laneLinkLeft: -1
-    totalDistance: 37.611683
-    maxSpeed: 50
-    conectorA: {x: -72.67406, y: 0.0000029876828, z: -110.48364}
-    conectorB: {x: -73.40425, y: 0.0000029876828, z: -72.87904}
-    middlePoints:
-    - {x: -73.039154, y: 0.0000029876828, z: -91.68134}
-    vehicleType: -1
-    laneWidth: 2
-    connectors:
-    - laneLinkRight: -1
-      laneLinkLeft: -1
-      totalDistance: 15.444621
-      maxSpeed: 50
-      conectorA: {x: -73.40425, y: 0.0000029876828, z: -72.87904}
-      conectorB: {x: -58.299732, y: 0.0000029951334, z: -71.71554}
-      middlePoints:
-      - {x: -71.230446, y: 0.000002991408, z: -71.96664}
-      vehicleType: -1
-      nextLane: 5
-      previousLane: 4
-      forcedStop: 0
-      points:
-      - point: {x: -73.40425, y: 0.0000029876828, z: -72.87904}
-        distanceToNextPoint: 0
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 21
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: -73.40425, y: 0.0000029876828, z: -72.87904}
-        distanceToNextPoint: 0
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 21
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: -73.30199, y: 0.0000029876828, z: -72.79101}
-        distanceToNextPoint: 0.13493803
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 3.4028235e+38
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: -73.25539, y: 0.0000029876828, z: -72.666115}
-        distanceToNextPoint: 0.13330379
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 21
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: -73.18981, y: 0.0000029876828, z: -72.51805}
-        distanceToNextPoint: 0.16193481
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 25.199999
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: -73.03062, y: 0.0000029876828, z: -72.360504}
-        distanceToNextPoint: 0.22397341
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 33.6
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: -72.70318, y: 0.0000029876828, z: -72.207146}
-        distanceToNextPoint: 0.36157253
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 42
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: -72.13285, y: 0.0000029876828, z: -72.07168}
-        distanceToNextPoint: 0.5861955
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 3.4028235e+38
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: -71.230446, y: 0.0000029876828, z: -71.96664}
-        distanceToNextPoint: 0.90849775
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 3.4028235e+38
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: -69.543915, y: 0.0000030100346, z: -71.88347}
-        distanceToNextPoint: 1.6885805
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 3.4028235e+38
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: -67.22766, y: 0.0000030100346, z: -71.82445}
-        distanceToNextPoint: 2.3170054
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 3.4028235e+38
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: -64.61273, y: 0.0000029876828, z: -71.78385}
-        distanceToNextPoint: 2.6152444
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 3.4028235e+38
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: -62.03018, y: 0.0000029876828, z: -71.75595}
-        distanceToNextPoint: 2.5827007
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 3.4028235e+38
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: -59.81105, y: 0.0000029951334, z: -71.735}
-        distanceToNextPoint: 2.2192304
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 1000
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: -58.299732, y: 0.0000029951334, z: -71.71554}
-        distanceToNextPoint: 1.5114435
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 1000
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      priority: 1
-      direction: 1
-      connectorReservedByTrafficLight: 0
-      remainingGreenLightTime: -1
-    points:
-    - point: {x: -72.67406, y: 0.0000029876828, z: -110.48364}
-      distanceToNextPoint: 0
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -72.67406, y: 0.0000029876828, z: -110.48364}
-      distanceToNextPoint: 0
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -72.69738, y: 0.0000029876828, z: -109.28248}
-      distanceToNextPoint: 1.2013906
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -72.727646, y: 0.0000029876828, z: -107.72385}
-      distanceToNextPoint: 1.5589257
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -72.763535, y: 0.0000029876828, z: -105.87559}
-      distanceToNextPoint: 1.8486074
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -72.80373, y: 0.0000029876828, z: -103.805565}
-      distanceToNextPoint: 2.0704126
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -72.84691, y: 0.0000029876828, z: -101.58161}
-      distanceToNextPoint: 2.2243724
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -72.89177, y: 0.0000029876828, z: -99.27158}
-      distanceToNextPoint: 2.3104637
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -72.93697, y: 0.0000029876828, z: -96.94334}
-      distanceToNextPoint: 2.3286858
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -72.98122, y: 0.0000029876828, z: -94.6647}
-      distanceToNextPoint: 2.2790625
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -73.039154, y: 0.0000029876828, z: -91.68134}
-      distanceToNextPoint: 2.9839227
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -73.123314, y: 0.0000029876828, z: -87.347244}
-      distanceToNextPoint: 4.3349156
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -73.21345, y: 0.0000029876828, z: -82.7053}
-      distanceToNextPoint: 4.64282
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -73.29902, y: 0.0000029876828, z: -78.298294}
-      distanceToNextPoint: 4.407836
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -73.36949, y: 0.0000029876828, z: -74.66904}
-      distanceToNextPoint: 3.6299415
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 1000
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -73.40425, y: 0.0000029876828, z: -72.87904}
-      distanceToNextPoint: 1.7903308
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 1000
-      roadBlockAhead: 0
-      nearbyPoints: []
-    trafficDensity: 1
-    maxTotalOccupation: 75
-  - laneLinkRight: -1
-    laneLinkLeft: -1
-    totalDistance: 47.142445
-    maxSpeed: 50
-    conectorA: {x: -58.299732, y: 0.0000029951334, z: -71.71554}
-    conectorB: {x: -11.157676, y: 0.0000029951334, z: -71.90555}
-    middlePoints:
-    - {x: -34.728703, y: 0.0000029951334, z: -71.81055}
-    vehicleType: -1
-    laneWidth: 2
-    connectors:
-    - laneLinkRight: -1
-      laneLinkLeft: -1
-      totalDistance: 14.688978
-      maxSpeed: 50
-      conectorA: {x: -11.157676, y: 0.0000029951334, z: -71.90555}
-      conectorB: {x: -1.8180233, y: 0.0000029876828, z: -64.520454}
-      middlePoints:
-      - {x: -3.1979764, y: 0.000002991408, z: -70.83893}
-      vehicleType: -1
-      nextLane: 6
-      previousLane: 5
-      forcedStop: 0
-      points:
-      - point: {x: -11.157676, y: 0.0000029951334, z: -71.90555}
-        distanceToNextPoint: 0
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 21
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: -11.157676, y: 0.0000029951334, z: -71.90555}
-        distanceToNextPoint: 0
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 3.4028235e+38
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: -10.108867, y: 0.0000029951334, z: -71.847626}
-        distanceToNextPoint: 1.0504073
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 3.4028235e+38
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: -8.580023, y: 0.0000029876828, z: -71.81737}
-        distanceToNextPoint: 1.5291433
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 3.4028235e+38
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: -6.831555, y: 0.0000029876828, z: -71.73983}
-        distanceToNextPoint: 1.7501863
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 42
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: -5.1238766, y: 0.0000029876828, z: -71.54005}
-        distanceToNextPoint: 1.7193251
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 33.6
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: -3.7173972, y: 0.0000030100346, z: -71.14305}
-        distanceToNextPoint: 1.4614341
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 21
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: -3.1979766, y: 0.0000030100346, z: -70.83893}
-        distanceToNextPoint: 0.6019041
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 21
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: -2.1984506, y: 0.0000029951334, z: -68.882996}
-        distanceToNextPoint: 2.1965256
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 3.4028235e+38
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: -1.9317279, y: 0.0000029951334, z: -66.34376}
-        distanceToNextPoint: 2.5532079
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 1000
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: -1.8180233, y: 0.0000029876828, z: -64.520454}
-        distanceToNextPoint: 1.8268452
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 1000
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      priority: 1
-      direction: 0
-      connectorReservedByTrafficLight: 0
-      remainingGreenLightTime: -1
-    points:
-    - point: {x: -58.299732, y: 0.0000029951334, z: -71.71554}
-      distanceToNextPoint: 0
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 17.75
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -58.299732, y: 0.0000029951334, z: -71.71554}
-      distanceToNextPoint: 0
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -57.13724, y: 0.0000029951334, z: -71.72022}
-      distanceToNextPoint: 1.1625003
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -55.678555, y: 0.0000029951334, z: -71.726105}
-      distanceToNextPoint: 1.4586986
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -53.966866, y: 0.0000029951334, z: -71.733}
-      distanceToNextPoint: 1.711703
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -52.04537, y: 0.0000029951334, z: -71.740746}
-      distanceToNextPoint: 1.921513
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -49.95726, y: 0.0000029951334, z: -71.74916}
-      distanceToNextPoint: 2.088125
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -47.745743, y: 0.0000029951334, z: -71.75808}
-      distanceToNextPoint: 2.2115352
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -45.454002, y: 0.0000029951334, z: -71.76731}
-      distanceToNextPoint: 2.291759
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -43.12524, y: 0.0000029951334, z: -71.776695}
-      distanceToNextPoint: 2.328781
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -40.802654, y: 0.0000029951334, z: -71.78606}
-      distanceToNextPoint: 2.322605
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -38.529434, y: 0.0000029951334, z: -71.79522}
-      distanceToNextPoint: 2.2732384
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -36.348785, y: 0.0000029951334, z: -71.80401}
-      distanceToNextPoint: 2.1806664
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -34.728703, y: 0.0000029951334, z: -71.81055}
-      distanceToNextPoint: 1.6200961
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -30.446936, y: 0.0000029951334, z: -71.827805}
-      distanceToNextPoint: 4.2818017
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -25.831947, y: 0.0000029951334, z: -71.846405}
-      distanceToNextPoint: 4.615026
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -21.22931, y: 0.0000029951334, z: -71.86495}
-      distanceToNextPoint: 4.6026754
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -16.984587, y: 0.0000029951334, z: -71.882065}
-      distanceToNextPoint: 4.2447567
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -13.443346, y: 0.0000029951334, z: -71.89633}
-      distanceToNextPoint: 3.5412695
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 1000
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: -11.157676, y: 0.0000029951334, z: -71.90555}
-      distanceToNextPoint: 2.2856889
       rightParallelPointIndex: -1
       rightParallelConnectorIndex: -1
       leftParallelPointIndex: -1
@@ -2497,15 +1841,15 @@ MonoBehaviour:
     connectors:
     - laneLinkRight: -1
       laneLinkLeft: -1
-      totalDistance: 18.760878
+      totalDistance: 15.524273
       maxSpeed: 50
       conectorA: {x: -2.3375187, y: 0.0000029876828, z: 127.89776}
-      conectorB: {x: 4.2399154, y: 0.0000029951334, z: 142.72005}
+      conectorB: {x: 3.1945996, y: 0.0000029951334, z: 140.18489}
       middlePoints:
-      - {x: -1.1618159, y: 0.0000030064668, z: 140.48506}
+      - {x: -1.3365833, y: 0.000002991408, z: 138.2765}
       vehicleType: -1
-      nextLane: 8
-      previousLane: 7
+      nextLane: 12
+      previousLane: 5
       forcedStop: 0
       points:
       - point: {x: -2.3375187, y: 0.0000029876828, z: 127.89776}
@@ -2528,8 +1872,8 @@ MonoBehaviour:
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
-      - point: {x: -2.2722423, y: 0.0000029876828, z: 129.02414}
-        distanceToNextPoint: 1.1282707
+      - point: {x: -2.268071, y: 0.0000029876828, z: 129.1624}
+        distanceToNextPoint: 1.2665462
         rightParallelPointIndex: -1
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
@@ -2538,8 +1882,8 @@ MonoBehaviour:
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
-      - point: {x: -2.2185996, y: 0.0000029951334, z: 130.61821}
-        distanceToNextPoint: 1.5949727
+      - point: {x: -2.2054179, y: 0.0000029951334, z: 130.99736}
+        distanceToNextPoint: 1.8360302
         rightParallelPointIndex: -1
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
@@ -2548,8 +1892,8 @@ MonoBehaviour:
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
-      - point: {x: -2.1549642, y: 0.0000029951334, z: 132.51733}
-        distanceToNextPoint: 1.90019
+      - point: {x: -2.1118274, y: 0.0000029951334, z: 133.12144}
+        distanceToNextPoint: 2.1261454
         rightParallelPointIndex: -1
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
@@ -2558,68 +1902,38 @@ MonoBehaviour:
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
-      - point: {x: -2.0597095, y: 0.0000029951334, z: 134.55888}
-        distanceToNextPoint: 2.0437708
+      - point: {x: -1.9495671, y: 0.0000029876828, z: 135.25348}
+        distanceToNextPoint: 2.1381998
         rightParallelPointIndex: -1
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
         leftParallelConnectorIndex: -1
-        maxSpeedLimit: 3.4028235e+38
+        maxSpeedLimit: 35
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
-      - point: {x: -1.9112091, y: 0.0000029876828, z: 136.5802}
-        distanceToNextPoint: 2.0267642
+      - point: {x: -1.6809047, y: 0.0000029876828, z: 137.11224}
+        distanceToNextPoint: 1.8780802
         rightParallelPointIndex: -1
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
         leftParallelConnectorIndex: -1
-        maxSpeedLimit: 42
+        maxSpeedLimit: 17.5
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
-      - point: {x: -1.6878363, y: 0.0000029876828, z: 138.41866}
-        distanceToNextPoint: 1.8519754
+      - point: {x: -1.3365833, y: 0.0000029876828, z: 138.2765}
+        distanceToNextPoint: 1.214109
         rightParallelPointIndex: -1
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
         leftParallelConnectorIndex: -1
-        maxSpeedLimit: 42
+        maxSpeedLimit: 17.5
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
-      - point: {x: -1.3679646, y: 0.0000029876828, z: 139.91159}
-        distanceToNextPoint: 1.526818
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 21
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: -1.1618158, y: 0.0000029951334, z: 140.48506}
-        distanceToNextPoint: 0.6093984
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 21
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: 0.75620306, y: 0.0000029951334, z: 142.16739}
-        distanceToNextPoint: 2.5512784
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 3.4028235e+38
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: 3.1085923, y: 0.0000029951334, z: 142.55658}
-        distanceToNextPoint: 2.3843668
+      - point: {x: 0.81307495, y: 0.0000029802322, z: 139.84154}
+        distanceToNextPoint: 2.6590147
         rightParallelPointIndex: -1
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
@@ -2628,8 +1942,8 @@ MonoBehaviour:
         roadBlockAhead: 0
         nearbyPoints: []
         otherConnectorsPoints: []
-      - point: {x: 4.239916, y: 0.0000029951334, z: 142.72005}
-        distanceToNextPoint: 1.1430725
+      - point: {x: 3.1945996, y: 0.0000029951334, z: 140.18489}
+        distanceToNextPoint: 2.4061484
         rightParallelPointIndex: -1
         rightParallelConnectorIndex: -1
         leftParallelPointIndex: -1
@@ -2854,844 +2168,6 @@ MonoBehaviour:
     maxTotalOccupation: 75
   - laneLinkRight: -1
     laneLinkLeft: -1
-    totalDistance: 90.061966
-    maxSpeed: 50
-    conectorA: {x: 4.2399154, y: 0.0000029951334, z: 142.72005}
-    conectorB: {x: 94.29901, y: 0.0000029951334, z: 142.61755}
-    middlePoints:
-    - {x: 49.269463, y: 0.0000029951334, z: 142.6688}
-    vehicleType: -1
-    laneWidth: 2
-    connectors:
-    - laneLinkRight: -1
-      laneLinkLeft: -1
-      totalDistance: 7.987359
-      maxSpeed: 50
-      conectorA: {x: 94.29901, y: 0.0000029951334, z: 142.61755}
-      conectorB: {x: 102.184555, y: 0.0000029951334, z: 142.01555}
-      middlePoints:
-      - {x: 100.97335, y: 0.0000029951334, z: 142.51906}
-      vehicleType: -1
-      nextLane: 9
-      previousLane: 8
-      forcedStop: 0
-      points:
-      - point: {x: 94.29901, y: 0.0000029951334, z: 142.61755}
-        distanceToNextPoint: 0
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 21
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: 94.29901, y: 0.0000029951334, z: 142.61755}
-        distanceToNextPoint: 0
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 3.4028235e+38
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: 95.788475, y: 0.0000029951334, z: 142.60873}
-        distanceToNextPoint: 1.4894899
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 3.4028235e+38
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: 97.93938, y: 0.0000029951334, z: 142.59671}
-        distanceToNextPoint: 2.1509354
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 3.4028235e+38
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: 100.00983, y: 0.0000029951334, z: 142.56271}
-        distanceToNextPoint: 2.070729
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 25.199999
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: 100.97335, y: 0.0000029951334, z: 142.51906}
-        distanceToNextPoint: 0.96451235
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 1000
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: 102.184555, y: 0.0000029951334, z: 142.01555}
-        distanceToNextPoint: 1.311693
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 1000
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      priority: 1
-      direction: 1
-      connectorReservedByTrafficLight: 0
-      remainingGreenLightTime: -1
-    points:
-    - point: {x: 4.239916, y: 0.0000029951334, z: 142.72005}
-      distanceToNextPoint: 0
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 17.75
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 4.239916, y: 0.0000029951334, z: 142.72005}
-      distanceToNextPoint: 0
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 5.3267727, y: 0.0000029876828, z: 142.71881}
-      distanceToNextPoint: 1.0868576
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 6.5794544, y: 0.0000029876828, z: 142.71738}
-      distanceToNextPoint: 1.2526826
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 7.986124, y: 0.0000029876828, z: 142.71579}
-      distanceToNextPoint: 1.4066706
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 9.534946, y: 0.0000029876828, z: 142.71402}
-      distanceToNextPoint: 1.5488234
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 11.214085, y: 0.0000029876828, z: 142.71211}
-      distanceToNextPoint: 1.6791393
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 13.011702, y: 0.0000029876828, z: 142.71007}
-      distanceToNextPoint: 1.7976182
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 14.915962, y: 0.0000029876828, z: 142.7079}
-      distanceToNextPoint: 1.9042618
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 16.91503, y: 0.0000029876828, z: 142.70563}
-      distanceToNextPoint: 1.9990686
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 18.997066, y: 0.0000029876828, z: 142.70325}
-      distanceToNextPoint: 2.0820384
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 21.15024, y: 0.0000029876828, z: 142.7008}
-      distanceToNextPoint: 2.1531749
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 23.362709, y: 0.0000029876828, z: 142.69829}
-      distanceToNextPoint: 2.2124705
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 25.62264, y: 0.0000029876828, z: 142.69571}
-      distanceToNextPoint: 2.259933
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 27.918198, y: 0.0000029876828, z: 142.6931}
-      distanceToNextPoint: 2.2955585
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 30.237545, y: 0.0000029876828, z: 142.69046}
-      distanceToNextPoint: 2.3193488
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 32.568844, y: 0.0000029876828, z: 142.6878}
-      distanceToNextPoint: 2.3313003
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 34.900257, y: 0.0000029876828, z: 142.68515}
-      distanceToNextPoint: 2.3314147
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 37.219955, y: 0.0000029876828, z: 142.68251}
-      distanceToNextPoint: 2.3196998
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 39.516098, y: 0.0000029876828, z: 142.6799}
-      distanceToNextPoint: 2.296144
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 41.77684, y: 0.0000029876828, z: 142.67734}
-      distanceToNextPoint: 2.2607436
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 43.990364, y: 0.0000029876828, z: 142.67482}
-      distanceToNextPoint: 2.2135253
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 46.14482, y: 0.0000029876828, z: 142.67236}
-      distanceToNextPoint: 2.1544585
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 48.22838, y: 0.0000029876828, z: 142.67}
-      distanceToNextPoint: 2.0835586
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 49.269463, y: 0.0000029876828, z: 142.6688}
-      distanceToNextPoint: 1.041085
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 53.43134, y: 0.0000029876828, z: 142.66406}
-      distanceToNextPoint: 4.1618795
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 57.853848, y: 0.0000029876828, z: 142.65903}
-      distanceToNextPoint: 4.422511
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 62.4423, y: 0.0000029876828, z: 142.65381}
-      distanceToNextPoint: 4.5884542
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 67.102, y: 0.0000029876828, z: 142.6485}
-      distanceToNextPoint: 4.6597013
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 71.73825, y: 0.11363699, z: 142.6432}
-      distanceToNextPoint: 4.6376486
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 76.25639, y: 0.0000029876828, z: 142.63808}
-      distanceToNextPoint: 4.519574
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 80.56171, y: 0.0000029876828, z: 142.63318}
-      distanceToNextPoint: 4.305316
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 84.5595, y: 0.0000029876828, z: 142.62863}
-      distanceToNextPoint: 3.9977977
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 88.155106, y: 0.0000029951334, z: 142.62453}
-      distanceToNextPoint: 3.5956063
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 91.253815, y: 0.0000029951334, z: 142.621}
-      distanceToNextPoint: 3.098711
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 1000
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 94.29901, y: 0.0000029951334, z: 142.61755}
-      distanceToNextPoint: 3.0451984
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 1000
-      roadBlockAhead: 0
-      nearbyPoints: []
-    trafficDensity: 1
-    maxTotalOccupation: 75
-  - laneLinkRight: -1
-    laneLinkLeft: -1
-    totalDistance: 69.19589
-    maxSpeed: 50
-    conectorA: {x: 102.184555, y: 0.0000029951334, z: 142.01555}
-    conectorB: {x: 103.12283, y: 0.0000029876828, z: 72.82602}
-    middlePoints:
-    - {x: 102.653694, y: 0.000002991408, z: 107.420784}
-    vehicleType: -1
-    laneWidth: 2
-    connectors:
-    - laneLinkRight: -1
-      laneLinkLeft: -1
-      totalDistance: 15.383214
-      maxSpeed: 50
-      conectorA: {x: 103.12283, y: 0.0000029876828, z: 72.82602}
-      conectorB: {x: 97.89135, y: 0.0000029876828, z: 58.359684}
-      middlePoints:
-      - {x: 100.507095, y: 0.0000029876828, z: 65.59285}
-      vehicleType: -1
-      nextLane: 10
-      previousLane: 9
-      forcedStop: 0
-      points:
-      - point: {x: 103.12283, y: 0.0000029876828, z: 72.82602}
-        distanceToNextPoint: 0
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 21
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: 103.12283, y: 0.0000029876828, z: 72.82602}
-        distanceToNextPoint: 0
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 3.4028235e+38
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: 102.89124, y: 0.0000029876828, z: 72.18561}
-        distanceToNextPoint: 0.6809998
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 3.4028235e+38
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: 102.57823, y: 0.0000029876828, z: 71.32005}
-        distanceToNextPoint: 0.92041355
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 3.4028235e+38
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: 102.20553, y: 0.0000029876828, z: 70.28943}
-        distanceToNextPoint: 1.0959446
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 3.4028235e+38
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: 101.79485, y: 0.0000029876828, z: 69.15381}
-        distanceToNextPoint: 1.2075956
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 3.4028235e+38
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: 101.36793, y: 0.0000029876828, z: 67.97325}
-        distanceToNextPoint: 1.2553807
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 3.4028235e+38
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: 100.94648, y: 0.0000029876828, z: 66.807846}
-        distanceToNextPoint: 1.239269
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 3.4028235e+38
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: 100.507095, y: 0.0000029876828, z: 65.59285}
-        distanceToNextPoint: 1.2920042
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 3.4028235e+38
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: 99.69835, y: 0.0000029802322, z: 63.356472}
-        distanceToNextPoint: 2.3781202
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 3.4028235e+38
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: 98.85712, y: 0.0000029802322, z: 61.030243}
-        distanceToNextPoint: 2.473664
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 3.4028235e+38
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: 98.15717, y: 0.0000029876828, z: 59.094727}
-        distanceToNextPoint: 2.0581896
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 1000
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      - point: {x: 97.89135, y: 0.0000029876828, z: 58.359684}
-        distanceToNextPoint: 0.78163266
-        rightParallelPointIndex: -1
-        rightParallelConnectorIndex: -1
-        leftParallelPointIndex: -1
-        leftParallelConnectorIndex: -1
-        maxSpeedLimit: 1000
-        roadBlockAhead: 0
-        nearbyPoints: []
-        otherConnectorsPoints: []
-      priority: 1
-      direction: 2
-      connectorReservedByTrafficLight: 0
-      remainingGreenLightTime: -1
-    points:
-    - point: {x: 102.184555, y: 0.0000029951334, z: 142.01555}
-      distanceToNextPoint: 0
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 17.75
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 102.184555, y: 0.0000029951334, z: 142.01555}
-      distanceToNextPoint: 0
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 102.19964, y: 0.0000029951334, z: 140.90338}
-      distanceToNextPoint: 1.1122696
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 102.21758, y: 0.0000029802322, z: 139.58005}
-      distanceToNextPoint: 1.3234555
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 102.23812, y: 0.0000029802322, z: 138.06561}
-      distanceToNextPoint: 1.514574
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 102.26098, y: 0.0000029802322, z: 136.38011}
-      distanceToNextPoint: 1.6856561
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 102.28588, y: 0.0000029876828, z: 134.5436}
-      distanceToNextPoint: 1.8366861
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 102.31256, y: 0.0000029876828, z: 132.57611}
-      distanceToNextPoint: 1.9676644
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 102.340744, y: 0.0000029876828, z: 130.49771}
-      distanceToNextPoint: 2.0785906
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 102.37016, y: 0.0000029876828, z: 128.32845}
-      distanceToNextPoint: 2.1694653
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 102.40054, y: 0.0000029876828, z: 126.08834}
-      distanceToNextPoint: 2.2403107
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 102.4316, y: 0.0000029876828, z: 123.79747}
-      distanceToNextPoint: 2.2910812
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 102.46309, y: 0.0000029876828, z: 121.475876}
-      distanceToNextPoint: 2.3218079
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 102.49471, y: 0.0000029876828, z: 119.1436}
-      distanceToNextPoint: 2.3324897
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 102.526215, y: 0.0000029876828, z: 116.820694}
-      distanceToNextPoint: 2.32312
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 102.55731, y: 0.0000029951334, z: 114.52721}
-      distanceToNextPoint: 2.2936983
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 102.58774, y: 0.0000029951334, z: 112.28319}
-      distanceToNextPoint: 2.2442248
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 102.617226, y: 0.0000029951334, z: 110.10867}
-      distanceToNextPoint: 2.1747148
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 102.653694, y: 0.0000029802322, z: 107.420784}
-      distanceToNextPoint: 2.6881366
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 102.71071, y: 0.0000029802322, z: 103.216675}
-      distanceToNextPoint: 4.204496
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 102.77181, y: 0.0000029951334, z: 98.71054}
-      distanceToNextPoint: 4.5065484
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 102.83484, y: 0.0000029876828, z: 94.06276}
-      distanceToNextPoint: 4.6482086
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 102.89761, y: 0.0000029876828, z: 89.433716}
-      distanceToNextPoint: 4.6294694
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 102.95796, y: 0.0000029876828, z: 84.983795}
-      distanceToNextPoint: 4.45033
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 103.0137, y: 0.0000029876828, z: 80.87338}
-      distanceToNextPoint: 4.1107907
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 103.06266, y: 0.0000029876828, z: 77.262856}
-      distanceToNextPoint: 3.610859
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 3.4028235e+38
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 103.10267, y: 0.0000029876828, z: 74.31261}
-      distanceToNextPoint: 2.95052
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 1000
-      roadBlockAhead: 0
-      nearbyPoints: []
-    - point: {x: 103.12283, y: 0.0000029876828, z: 72.82602}
-      distanceToNextPoint: 1.4867243
-      rightParallelPointIndex: -1
-      rightParallelConnectorIndex: -1
-      leftParallelPointIndex: -1
-      leftParallelConnectorIndex: -1
-      maxSpeedLimit: 1000
-      roadBlockAhead: 0
-      nearbyPoints: []
-    trafficDensity: 1
-    maxTotalOccupation: 75
-  - laneLinkRight: -1
-    laneLinkLeft: -1
     totalDistance: 50.982353
     maxSpeed: 50
     conectorA: {x: 97.89135, y: 0.0000029876828, z: 58.359684}
@@ -3708,7 +2184,7 @@ MonoBehaviour:
       rightParallelConnectorIndex: -1
       leftParallelPointIndex: -1
       leftParallelConnectorIndex: -1
-      maxSpeedLimit: 17.75
+      maxSpeedLimit: 17.5
       roadBlockAhead: 0
       nearbyPoints: []
     - point: {x: 97.89135, y: 0.0000029876828, z: 58.359684}
@@ -4272,7 +2748,7 @@ MonoBehaviour:
       rightParallelConnectorIndex: -1
       leftParallelPointIndex: -1
       leftParallelConnectorIndex: -1
-      maxSpeedLimit: 17.75
+      maxSpeedLimit: 17.5
       roadBlockAhead: 0
       nearbyPoints: []
     - point: {x: 97.67951, y: 0.0000029876828, z: 7.435447}
@@ -4367,19 +2843,1839 @@ MonoBehaviour:
       nearbyPoints: []
     trafficDensity: 1
     maxTotalOccupation: 75
-  menuSelection: 2
+  - laneLinkRight: -1
+    laneLinkLeft: -1
+    totalDistance: 33.87782
+    maxSpeed: 50
+    conectorA: {x: -71.88802, y: 0.0000029876828, z: -113.47646}
+    conectorB: {x: -71.73476, y: 0.0000029876828, z: -79.59899}
+    middlePoints:
+    - {x: -71.811386, y: 0.0000029876828, z: -96.53773}
+    vehicleType: -1
+    laneWidth: 2
+    connectors:
+    - laneLinkRight: -1
+      laneLinkLeft: -1
+      totalDistance: 18.385479
+      maxSpeed: 50
+      conectorA: {x: -71.73476, y: 0.0000029876828, z: -79.59899}
+      conectorB: {x: -58.11392, y: 0.0000029951334, z: -72.35536}
+      middlePoints:
+      - {x: -69.6404, y: 0.000002991408, z: -73.45812}
+      vehicleType: -1
+      nextLane: 11
+      previousLane: 10
+      forcedStop: 0
+      points:
+      - point: {x: -71.73476, y: 0.0000029876828, z: -79.59899}
+        distanceToNextPoint: 0
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 28
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: -71.73476, y: 0.0000029876828, z: -79.59899}
+        distanceToNextPoint: 0
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 35
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: -71.63507, y: 0.0000029876828, z: -79.067566}
+        distanceToNextPoint: 0.54069424
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 3.4028235e+38
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: -71.57554, y: 0.0000029876828, z: -78.31812}
+        distanceToNextPoint: 0.7518038
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 3.4028235e+38
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: -71.50821, y: 0.0000029876828, z: -77.42373}
+        distanceToNextPoint: 0.8969246
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 35
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: -71.38512, y: 0.0000029876828, z: -76.457466}
+        distanceToNextPoint: 0.9740717
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 35
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: -71.15829, y: 0.0000029876828, z: -75.49239}
+        distanceToNextPoint: 0.99137115
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 28
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: -70.77977, y: 0.0000029876828, z: -74.60159}
+        distanceToNextPoint: 0.96788466
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 21
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: -70.20159, y: 0.0000029876828, z: -73.85814}
+        distanceToNextPoint: 0.94181424
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 21
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: -69.6404, y: 0.0000030100346, z: -73.45812}
+        distanceToNextPoint: 0.6891626
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 35
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: -68.06474, y: 0.0000030100346, z: -72.95626}
+        distanceToNextPoint: 1.6536541
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 3.4028235e+38
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: -65.9064, y: 0.0000030100346, z: -72.66128}
+        distanceToNextPoint: 2.178405
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 3.4028235e+38
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: -63.4894, y: 0.0000029876828, z: -72.51233}
+        distanceToNextPoint: 2.421589
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 3.4028235e+38
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: -61.13773, y: 0.0000029876828, z: -72.448586}
+        distanceToNextPoint: 2.352533
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 3.4028235e+38
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: -59.175392, y: 0.0000029951334, z: -72.4092}
+        distanceToNextPoint: 1.9627327
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 1000
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: -58.11392, y: 0.0000029951334, z: -72.35536}
+        distanceToNextPoint: 1.0628384
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 1000
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      priority: 1
+      direction: 1
+      connectorReservedByTrafficLight: 0
+      remainingGreenLightTime: -1
+    points:
+    - point: {x: -71.88802, y: 0.0000029876828, z: -113.47646}
+      distanceToNextPoint: 0
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: -71.88802, y: 0.0000029876828, z: -113.47646}
+      distanceToNextPoint: 0
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: -71.88249, y: 0.0000029876828, z: -112.25427}
+      distanceToNextPoint: 1.2222034
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: -71.875206, y: 0.0000029876828, z: -110.64345}
+      distanceToNextPoint: 1.610841
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: -71.86654, y: 0.0000029876828, z: -108.72763}
+      distanceToNextPoint: 1.9158368
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: -71.856865, y: 0.0000029876828, z: -106.59046}
+      distanceToNextPoint: 2.1371908
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: -71.84657, y: 0.0000029876828, z: -104.3156}
+      distanceToNextPoint: 2.2748876
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: -71.83604, y: 0.0000029876828, z: -101.986664}
+      distanceToNextPoint: 2.3289576
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: -71.82563, y: 0.0000029876828, z: -99.68732}
+      distanceToNextPoint: 2.2993705
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: -71.811386, y: 0.0000029876828, z: -96.53773}
+      distanceToNextPoint: 3.1496217
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: -71.79166, y: 0.0000029876828, z: -92.17702}
+      distanceToNextPoint: 4.360755
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: -71.77068, y: 0.0000029876828, z: -87.54089}
+      distanceToNextPoint: 4.636171
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: -71.75149, y: 0.0000029876828, z: -83.29852}
+      distanceToNextPoint: 4.242414
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 1000
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: -71.73476, y: 0.0000029876828, z: -79.59899}
+      distanceToNextPoint: 3.6995695
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 1000
+      roadBlockAhead: 0
+      nearbyPoints: []
+    trafficDensity: 1
+    maxTotalOccupation: 75
+  - laneLinkRight: -1
+    laneLinkLeft: -1
+    totalDistance: 46.21318
+    maxSpeed: 50
+    conectorA: {x: -58.11392, y: 0.0000029951334, z: -72.35536}
+    conectorB: {x: -11.901268, y: 0.0000029951334, z: -72.13469}
+    middlePoints:
+    - {x: -35.00759, y: 0.0000029951334, z: -72.245026}
+    vehicleType: -1
+    laneWidth: 2
+    connectors:
+    - laneLinkRight: -1
+      laneLinkLeft: -1
+      totalDistance: 15.487762
+      maxSpeed: 50
+      conectorA: {x: -11.901268, y: 0.0000029951334, z: -72.13469}
+      conectorB: {x: -1.8180233, y: 0.0000029876828, z: -64.520454}
+      middlePoints:
+      - {x: -3.3044615, y: 0.000002991408, z: -70.958984}
+      vehicleType: -1
+      nextLane: 4
+      previousLane: 11
+      forcedStop: 0
+      points:
+      - point: {x: -11.901268, y: 0.0000029951334, z: -72.13469}
+        distanceToNextPoint: 0
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 17.5
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: -11.901268, y: 0.0000029951334, z: -72.13469}
+        distanceToNextPoint: 0
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 3.4028235e+38
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: -10.94756, y: 0.0000029951334, z: -72.07001}
+        distanceToNextPoint: 0.9558986
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 3.4028235e+38
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: -9.571795, y: 0.0000029876828, z: -72.02964}
+        distanceToNextPoint: 1.376357
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 3.4028235e+38
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: -7.9608517, y: 0.0000029876828, z: -71.96497}
+        distanceToNextPoint: 1.6122411
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 3.4028235e+38
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: -6.3016105, y: 0.0000029876828, z: -71.82736}
+        distanceToNextPoint: 1.6649379
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 28
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: -4.7809515, y: 0.0000030100346, z: -71.568184}
+        distanceToNextPoint: 1.5425878
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 17.5
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: -3.3044617, y: 0.0000030100346, z: -70.958984}
+        distanceToNextPoint: 1.5972308
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 17.5
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: -2.283837, y: 0.0000029951334, z: -69.19188}
+        distanceToNextPoint: 2.0406702
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 3.4028235e+38
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: -1.9619763, y: 0.0000029951334, z: -66.84405}
+        distanceToNextPoint: 2.3697908
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 1000
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: -1.8180233, y: 0.0000029876828, z: -64.520454}
+        distanceToNextPoint: 2.328048
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 1000
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      priority: 1
+      direction: 0
+      connectorReservedByTrafficLight: 0
+      remainingGreenLightTime: -1
+    points:
+    - point: {x: -58.11392, y: 0.0000029951334, z: -72.35536}
+      distanceToNextPoint: 0
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 17.5
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: -58.11392, y: 0.0000029951334, z: -72.35536}
+      distanceToNextPoint: 0
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: -56.94831, y: 0.0000029951334, z: -72.34979}
+      distanceToNextPoint: 1.1656208
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: -55.48144, y: 0.0000029951334, z: -72.34279}
+      distanceToNextPoint: 1.466886
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: -53.75825, y: 0.0000029951334, z: -72.334564}
+      distanceToNextPoint: 1.72321
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: -51.823696, y: 0.0000029951334, z: -72.325325}
+      distanceToNextPoint: 1.9345771
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: -49.722725, y: 0.0000029951334, z: -72.31529}
+      distanceToNextPoint: 2.100995
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: -47.50029, y: 0.0000029951334, z: -72.30468}
+      distanceToNextPoint: 2.2224603
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: -45.201336, y: 0.0000029951334, z: -72.29371}
+      distanceToNextPoint: 2.2989802
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: -42.870823, y: 0.0000029951334, z: -72.28258}
+      distanceToNextPoint: 2.3305395
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: -40.553696, y: 0.0000029951334, z: -72.271515}
+      distanceToNextPoint: 2.3171537
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: -38.294903, y: 0.0000029951334, z: -72.26073}
+      distanceToNextPoint: 2.2588186
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: -36.139397, y: 0.0000029951334, z: -72.250435}
+      distanceToNextPoint: 2.1555307
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: -35.00759, y: 0.0000029951334, z: -72.245026}
+      distanceToNextPoint: 1.1318183
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: -30.721354, y: 0.0000029951334, z: -72.224556}
+      distanceToNextPoint: 4.286287
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: -26.102283, y: 0.0000029951334, z: -72.2025}
+      distanceToNextPoint: 4.6191225
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: -21.509987, y: 0.0000029951334, z: -72.18057}
+      distanceToNextPoint: 4.592349
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: -17.304068, y: 0.0000029951334, z: -72.16049}
+      distanceToNextPoint: 4.2059674
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: -13.844128, y: 0.0000029951334, z: -72.14397}
+      distanceToNextPoint: 3.4599795
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 1000
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: -11.901268, y: 0.0000029951334, z: -72.13469}
+      distanceToNextPoint: 1.9428818
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 1000
+      roadBlockAhead: 0
+      nearbyPoints: []
+    trafficDensity: 1
+    maxTotalOccupation: 75
+  - laneLinkRight: -1
+    laneLinkLeft: -1
+    totalDistance: 85.532524
+    maxSpeed: 50
+    conectorA: {x: 3.1945996, y: 0.0000029951334, z: 140.18489}
+    conectorB: {x: 88.72187, y: 0.0000029951334, z: 141.13434}
+    middlePoints:
+    - {x: 45.958237, y: 0.0000029951334, z: 140.6596}
+    vehicleType: -128
+    laneWidth: 2
+    connectors:
+    - laneLinkRight: -1
+      laneLinkLeft: -1
+      totalDistance: 17.562214
+      maxSpeed: 50
+      conectorA: {x: 88.72187, y: 0.0000029951334, z: 141.13434}
+      conectorB: {x: 101.20016, y: 0.0000029876828, z: 133.69792}
+      middlePoints:
+      - {x: 99.30101, y: 0.000002991408, z: 140.12529}
+      vehicleType: -1
+      nextLane: 13
+      previousLane: 12
+      forcedStop: 0
+      points:
+      - point: {x: 88.72187, y: 0.0000029951334, z: 141.13434}
+        distanceToNextPoint: 0
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 17.5
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: 88.72187, y: 0.0000029951334, z: 141.13434}
+        distanceToNextPoint: 0
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 3.4028235e+38
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: 89.895195, y: 0.0000029951334, z: 141.08832}
+        distanceToNextPoint: 1.1742268
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 3.4028235e+38
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: 91.58723, y: 0.0000029951334, z: 141.07504}
+        distanceToNextPoint: 1.692084
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 3.4028235e+38
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: 93.56862, y: 0.0000029951334, z: 141.042}
+        distanceToNextPoint: 1.9816673
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 3.4028235e+38
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: 95.610016, y: 0.0000029951334, z: 140.93668}
+        distanceToNextPoint: 2.0441127
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 28
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: 97.48208, y: 0.0000029951334, z: 140.70656}
+        distanceToNextPoint: 1.886153
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 17.5
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: 99.30101, y: 0.0000029951334, z: 140.12529}
+        distanceToNextPoint: 1.909551
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 17.5
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: 100.668755, y: 0.0000029802322, z: 138.07207}
+        distanceToNextPoint: 2.4670727
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 3.4028235e+38
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: 101.03783, y: 0.0000029802322, z: 135.42192}
+        distanceToNextPoint: 2.6757224
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 1000
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: 101.20016, y: 0.0000029876828, z: 133.69792}
+        distanceToNextPoint: 1.7316246
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 1000
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      priority: 1
+      direction: 1
+      connectorReservedByTrafficLight: 0
+      remainingGreenLightTime: -1
+    points:
+    - point: {x: 3.1945996, y: 0.0000029951334, z: 140.18489}
+      distanceToNextPoint: 0
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 17.5
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 3.1945996, y: 0.0000029951334, z: 140.18489}
+      distanceToNextPoint: 0
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 3.8000708, y: 0.0000029951334, z: 140.1916}
+      distanceToNextPoint: 0.6055083
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 4.4648905, y: 0.0000029951334, z: 140.19899}
+      distanceToNextPoint: 0.6648607
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 5.1865664, y: 0.0000029876828, z: 140.207}
+      distanceToNextPoint: 0.72172034
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 5.9626017, y: 0.0000029876828, z: 140.21562}
+      distanceToNextPoint: 0.7760832
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 6.7905035, y: 0.0000029876828, z: 140.22481}
+      distanceToNextPoint: 0.8279528
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 7.6677766, y: 0.0000029876828, z: 140.23454}
+      distanceToNextPoint: 0.8773271
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 8.591927, y: 0.0000029876828, z: 140.24481}
+      distanceToNextPoint: 0.92420703
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 9.560459, y: 0.0000029876828, z: 140.25555}
+      distanceToNextPoint: 0.9685921
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 10.570881, y: 0.0000029876828, z: 140.26677}
+      distanceToNextPoint: 1.010484
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 11.620693, y: 0.0000029876828, z: 140.27843}
+      distanceToNextPoint: 1.049877
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 12.707405, y: 0.0000029876828, z: 140.2905}
+      distanceToNextPoint: 1.0867789
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 13.828522, y: 0.0000029876828, z: 140.30293}
+      distanceToNextPoint: 1.1211857
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 14.981548, y: 0.0000029876828, z: 140.31573}
+      distanceToNextPoint: 1.1530976
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 16.16399, y: 0.0000029876828, z: 140.32886}
+      distanceToNextPoint: 1.1825145
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 17.373354, y: 0.0000029876828, z: 140.34229}
+      distanceToNextPoint: 1.2094384
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 18.607141, y: 0.0000029876828, z: 140.35599}
+      distanceToNextPoint: 1.2338636
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 19.862862, y: 0.0000029876828, z: 140.36992}
+      distanceToNextPoint: 1.2557974
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 21.138021, y: 0.0000029876828, z: 140.38408}
+      distanceToNextPoint: 1.2752385
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 22.430122, y: 0.0000029876828, z: 140.39842}
+      distanceToNextPoint: 1.2921805
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 23.73667, y: 0.0000029876828, z: 140.41293}
+      distanceToNextPoint: 1.3066278
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 25.055174, y: 0.0000029876828, z: 140.42757}
+      distanceToNextPoint: 1.3185855
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 26.383137, y: 0.0000029876828, z: 140.4423}
+      distanceToNextPoint: 1.3280447
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 27.718063, y: 0.0000029876828, z: 140.45712}
+      distanceToNextPoint: 1.3350089
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 29.057463, y: 0.0000029876828, z: 140.472}
+      distanceToNextPoint: 1.339482
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 30.398834, y: 0.0000029876828, z: 140.4869}
+      distanceToNextPoint: 1.3414541
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 31.739687, y: 0.0000029876828, z: 140.50177}
+      distanceToNextPoint: 1.3409352
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 33.07753, y: 0.0000029876828, z: 140.51663}
+      distanceToNextPoint: 1.3379254
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 34.409863, y: 0.0000029876828, z: 140.53142}
+      distanceToNextPoint: 1.3324146
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 35.734196, y: 0.0000029876828, z: 140.54613}
+      distanceToNextPoint: 1.3244148
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 37.048027, y: 0.0000029876828, z: 140.56071}
+      distanceToNextPoint: 1.3139123
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 38.348873, y: 0.0000029876828, z: 140.57515}
+      distanceToNextPoint: 1.3009262
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 39.634228, y: 0.0000029876828, z: 140.58942}
+      distanceToNextPoint: 1.2854338
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 40.901608, y: 0.0000029876828, z: 140.60349}
+      distanceToNextPoint: 1.2674578
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 42.14851, y: 0.0000029876828, z: 140.61734}
+      distanceToNextPoint: 1.2469795
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 43.37244, y: 0.0000029876828, z: 140.63092}
+      distanceToNextPoint: 1.2240057
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 44.57091, y: 0.0000029876828, z: 140.64423}
+      distanceToNextPoint: 1.198545
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 45.958237, y: 0.0000029876828, z: 140.6596}
+      distanceToNextPoint: 1.3874105
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 48.316612, y: 0.0000029876828, z: 140.68579}
+      distanceToNextPoint: 2.358521
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 50.77872, y: 0.0000029876828, z: 140.71312}
+      distanceToNextPoint: 2.4622602
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 53.324604, y: 0.0000029876828, z: 140.74138}
+      distanceToNextPoint: 2.54604
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 55.934307, y: 0.0000029876828, z: 140.77036}
+      distanceToNextPoint: 2.609864
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 58.587875, y: 0.0000029876828, z: 140.7998}
+      distanceToNextPoint: 2.6537316
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 61.26535, y: 0.0000029876828, z: 140.82953}
+      distanceToNextPoint: 2.67764
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 63.946777, y: 0.0000029876828, z: 140.8593}
+      distanceToNextPoint: 2.6815922
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 66.6122, y: 0.0000029876828, z: 140.88889}
+      distanceToNextPoint: 2.6655848
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 69.24166, y: 0.0000029876828, z: 140.91808}
+      distanceToNextPoint: 2.6296253
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 71.8152, y: 0.0000029876828, z: 140.94666}
+      distanceToNextPoint: 2.5736985
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 74.312874, y: 0.0000029876828, z: 140.97438}
+      distanceToNextPoint: 2.4978268
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 76.714714, y: 0.0000029876828, z: 141.00104}
+      distanceToNextPoint: 2.401988
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 79.00077, y: 0.0000029876828, z: 141.02643}
+      distanceToNextPoint: 2.2861974
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 81.15109, y: 0.0000029876828, z: 141.0503}
+      distanceToNextPoint: 2.1504543
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 83.145706, y: 0.0000029876828, z: 141.07243}
+      distanceToNextPoint: 1.9947366
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 84.964676, y: 0.0000029876828, z: 141.09264}
+      distanceToNextPoint: 1.8190819
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 86.58803, y: 0.0000029951334, z: 141.11066}
+      distanceToNextPoint: 1.6234521
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 87.99583, y: 0.0000029951334, z: 141.12628}
+      distanceToNextPoint: 1.4078854
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 1000
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 88.72187, y: 0.0000029951334, z: 141.13434}
+      distanceToNextPoint: 0.7260884
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 1000
+      roadBlockAhead: 0
+      nearbyPoints: []
+    trafficDensity: 1
+    maxTotalOccupation: 75
+  - laneLinkRight: -1
+    laneLinkLeft: -1
+    totalDistance: 61.806564
+    maxSpeed: 50
+    conectorA: {x: 101.20016, y: 0.0000029876828, z: 133.69792}
+    conectorB: {x: 101.52626, y: 0.0000029876828, z: 71.89222}
+    middlePoints:
+    - {x: 101.363205, y: 0.0000029876828, z: 102.795074}
+    vehicleType: -128
+    laneWidth: 2
+    connectors:
+    - laneLinkRight: -1
+      laneLinkLeft: -1
+      totalDistance: 14.012213
+      maxSpeed: 50
+      conectorA: {x: 101.52626, y: 0.0000029876828, z: 71.89222}
+      conectorB: {x: 97.89135, y: 0.0000029876828, z: 58.359684}
+      middlePoints:
+      - {x: 99.7088, y: 0.0000029876828, z: 65.12595}
+      vehicleType: -1
+      nextLane: 6
+      previousLane: 13
+      forcedStop: 0
+      points:
+      - point: {x: 101.52626, y: 0.0000029876828, z: 71.89222}
+        distanceToNextPoint: 0
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 17.5
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: 101.52626, y: 0.0000029876828, z: 71.89222}
+        distanceToNextPoint: 0
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 3.4028235e+38
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: 101.33215, y: 0.0000029876828, z: 71.16956}
+        distanceToNextPoint: 0.74827105
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 3.4028235e+38
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: 101.06422, y: 0.0000029876828, z: 70.17207}
+        distanceToNextPoint: 1.0328486
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 3.4028235e+38
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: 100.74658, y: 0.0000029876828, z: 68.989525}
+        distanceToNextPoint: 1.2244643
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 3.4028235e+38
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: 100.40334, y: 0.0000029876828, z: 67.71168}
+        distanceToNextPoint: 1.3231426
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 3.4028235e+38
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: 100.05863, y: 0.0000029876828, z: 66.428314}
+        distanceToNextPoint: 1.3288519
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 3.4028235e+38
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: 99.7088, y: 0.0000029802322, z: 65.12595}
+        distanceToNextPoint: 1.3485267
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 3.4028235e+38
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: 99.04637, y: 0.0000029802322, z: 62.65978}
+        distanceToNextPoint: 2.5535922
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 3.4028235e+38
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: 98.38098, y: 0.0000029802322, z: 60.182564}
+        distanceToNextPoint: 2.5650218
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 1000
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      - point: {x: 97.89135, y: 0.0000029876828, z: 58.359684}
+        distanceToNextPoint: 1.887493
+        rightParallelPointIndex: -1
+        rightParallelConnectorIndex: -1
+        leftParallelPointIndex: -1
+        leftParallelConnectorIndex: -1
+        maxSpeedLimit: 1000
+        roadBlockAhead: 0
+        nearbyPoints: []
+        otherConnectorsPoints: []
+      priority: 1
+      direction: 2
+      connectorReservedByTrafficLight: 0
+      remainingGreenLightTime: -1
+    points:
+    - point: {x: 101.20016, y: 0.0000029876828, z: 133.69792}
+      distanceToNextPoint: 0
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 17.5
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.20016, y: 0.0000029876828, z: 133.69792}
+      distanceToNextPoint: 0
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.203415, y: 0.0000029876828, z: 133.08093}
+      distanceToNextPoint: 0.6169977
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.20709, y: 0.0000029876828, z: 132.38313}
+      distanceToNextPoint: 0.6978094
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.211174, y: 0.0000029876828, z: 131.6093}
+      distanceToNextPoint: 0.773845
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.21564, y: 0.0000029876828, z: 130.7642}
+      distanceToNextPoint: 0.8451046
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.22044, y: 0.0000029876828, z: 129.85263}
+      distanceToNextPoint: 0.911588
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.22558, y: 0.0000029876828, z: 128.87936}
+      distanceToNextPoint: 0.97328013
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.23102, y: 0.0000029876828, z: 127.849174}
+      distanceToNextPoint: 1.0302038
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.236725, y: 0.0000029876828, z: 126.76684}
+      distanceToNextPoint: 1.0823514
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.24268, y: 0.0000029876828, z: 125.63713}
+      distanceToNextPoint: 1.1297231
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.24887, y: 0.0000029876828, z: 124.46483}
+      distanceToNextPoint: 1.1723186
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.25526, y: 0.0000029876828, z: 123.254715}
+      distanceToNextPoint: 1.2101303
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.26182, y: 0.0000029876828, z: 122.011566}
+      distanceToNextPoint: 1.2431661
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.268524, y: 0.0000029876828, z: 120.74016}
+      distanceToNextPoint: 1.2714257
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.27536, y: 0.0000029876828, z: 119.44527}
+      distanceToNextPoint: 1.2949094
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.28229, y: 0.0000029876828, z: 118.13168}
+      distanceToNextPoint: 1.3136016
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.28929, y: 0.0000029876828, z: 116.80416}
+      distanceToNextPoint: 1.3275408
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.29634, y: 0.0000029876828, z: 115.4675}
+      distanceToNextPoint: 1.3366809
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.30342, y: 0.0000029951334, z: 114.12646}
+      distanceToNextPoint: 1.3410603
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.31049, y: 0.0000029951334, z: 112.78583}
+      distanceToNextPoint: 1.3406482
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.31754, y: 0.0000029951334, z: 111.45038}
+      distanceToNextPoint: 1.3354678
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.32453, y: 0.0000029951334, z: 110.12489}
+      distanceToNextPoint: 1.3255037
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.33145, y: 0.0000029802322, z: 108.81415}
+      distanceToNextPoint: 1.3107635
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.338264, y: 0.0000029802322, z: 107.52291}
+      distanceToNextPoint: 1.2912549
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.34495, y: 0.0000029802322, z: 106.255974}
+      distanceToNextPoint: 1.2669549
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.35148, y: 0.0000029802322, z: 105.01811}
+      distanceToNextPoint: 1.2378789
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.357834, y: 0.0000029802322, z: 103.81409}
+      distanceToNextPoint: 1.2040421
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.363205, y: 0.0000029802322, z: 102.795074}
+      distanceToNextPoint: 1.0190266
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.375755, y: 0.0000029802322, z: 100.415886}
+      distanceToNextPoint: 2.3792217
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.389015, y: 0.0000029951334, z: 97.90375}
+      distanceToNextPoint: 2.5121734
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.40277, y: 0.0000029951334, z: 95.29687}
+      distanceToNextPoint: 2.6069164
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.41682, y: 0.0000029876828, z: 92.63347}
+      distanceToNextPoint: 2.6634357
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.43097, y: 0.0000029876828, z: 89.951775}
+      distanceToNextPoint: 2.6817315
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.445015, y: 0.0000029876828, z: 87.29}
+      distanceToNextPoint: 2.6618106
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.45875, y: 0.0000029876828, z: 84.68637}
+      distanceToNextPoint: 2.6036663
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.47198, y: 0.0000029876828, z: 82.17911}
+      distanceToNextPoint: 2.507298
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.4845, y: 0.0000029876828, z: 79.80642}
+      distanceToNextPoint: 2.3727214
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.4961, y: 0.0000029876828, z: 77.60654}
+      distanceToNextPoint: 2.199913
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.50659, y: 0.0000029876828, z: 75.617676}
+      distanceToNextPoint: 1.9888887
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 3.4028235e+38
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.51577, y: 0.0000029876828, z: 73.87807}
+      distanceToNextPoint: 1.739633
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 1000
+      roadBlockAhead: 0
+      nearbyPoints: []
+    - point: {x: 101.52626, y: 0.0000029876828, z: 71.89222}
+      distanceToNextPoint: 1.9858751
+      rightParallelPointIndex: -1
+      rightParallelConnectorIndex: -1
+      leftParallelPointIndex: -1
+      leftParallelConnectorIndex: -1
+      maxSpeedLimit: 1000
+      roadBlockAhead: 0
+      nearbyPoints: []
+    trafficDensity: 1
+    maxTotalOccupation: 75
+  menuSelection: 1
   laneMenuSelection: 0
-  connectionsMenuSelection: 1
+  connectionsMenuSelection: 0
   settingsMenuSelection: 0
-  visualLinesWidth: 1.19
-  resolution: 4
-  resolutionConnectors: 2
-  laneCurveSpeedMultiplier: 0.71
-  connectorsCurveSpeedMultiplier: 0.84
-  defaultVehicleType: -1
+  visualLinesWidth: 3
+  resolution: 2.3
+  resolutionConnectors: 2.3
+  laneCurveSpeedMultiplier: 0.7
+  connectorsCurveSpeedMultiplier: 0.7
+  defaultVehicleType: -128
   junctionsProcessed: 1
   vehicleTypePresets: []
-  scaleFactor: 0.42
+  scaleFactor: 1
 --- !u!114 &581760181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10382,14 +10678,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initializeOnStart: 1
   cars:
-  - cars: {fileID: 100032, guid: fb395460b23c43843ba1104c553bf743, type: 3}
-    frequency: 0
   - cars: {fileID: 100032, guid: 014e5c7cd30a8ee439e94c65c0cee51d, type: 3}
-    frequency: 0
-  - cars: {fileID: 100032, guid: d9ff19eaaaeb40e4cb96e6eec6e2a407, type: 3}
-    frequency: 0
+    frequency: 5
+  - cars: {fileID: 100032, guid: 014e5c7cd30a8ee439e94c65c0cee51d, type: 3}
+    frequency: 5
+  - cars: {fileID: 100032, guid: 014e5c7cd30a8ee439e94c65c0cee51d, type: 3}
+    frequency: 5
   totalAmountOfCars: 10
-  amount: 10
+  amount: 30
   maxDistance: 150
   offset: 140
   closerRange: 2

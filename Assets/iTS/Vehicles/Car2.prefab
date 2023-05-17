@@ -1166,7 +1166,7 @@ MonoBehaviour:
   brakeLightsShader: {fileID: 0}
   propertyName: _Intensity
   superSimplePhysics: 0
-  turnSpeed: 3
+  turnSpeed: 1
   carGrip: 70
   maxSpeed: 50
   maxSpeedToTurn: 0.2
@@ -1177,7 +1177,7 @@ MonoBehaviour:
   turnRightLight: {fileID: 100036}
   turnLeftLight: {fileID: 100034}
   CoM: {fileID: 400000}
-  maxSteering: 55
+  maxSteering: 40
 --- !u!114 &11400014
 MonoBehaviour:
   m_ObjectHideFlags: 0
