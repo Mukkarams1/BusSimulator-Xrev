@@ -128,6 +128,7 @@ MonoBehaviour:
     m_StyleName: Regular
     m_PointSize: 90
     m_Scale: 1
+    m_UnitsPerEM: 0
     m_LineHeight: 132.05566
     m_AscentLine: 102.43652
     m_CapLine: 70
@@ -271,6 +272,10 @@ Texture2D:
   m_Width: 0
   m_Height: 0
   m_CompleteImageSize: 0
+<<<<<<< Updated upstream
+=======
+  m_MipsStripped: 0
+>>>>>>> Stashed changes
   m_TextureFormat: 1
   m_MipCount: 1
   m_IsReadable: 1
@@ -289,6 +294,10 @@ Texture2D:
     m_WrapW: 0
   m_LightmapFormat: 0
   m_ColorSpace: 0
+<<<<<<< Updated upstream
+=======
+  m_PlatformBlob: 
+>>>>>>> Stashed changes
   image data: 0
   _typelessdata: 
   m_StreamData:

@@ -3,7 +3,26 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
+<<<<<<< Updated upstream
   tags: []
+=======
+  tags:
+  - Track
+  - TrafficCar
+  - health
+  - coin
+  - passenger
+  - PickPoint
+  - DropPoint
+  - Bus_Stop
+  - AIBUS
+  - ParkPoint
+  - TrafficLight
+  - TrafficManager
+  - Hurdles
+  - ParkingPoint
+  - TrafficHolder
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
@@ -13,19 +32,19 @@ TagManager:
   - UI
   - 
   - 
+  - Road
+  - Traffic
+  - Buildings
+  - Obstacles
+  - Player
+  - AIBUS
+  - 
+  - 
   - RCC
   - RCC_WheelCollider
   - RCC_DetachablePart
   - RCC_Trailer
   - RCC_Crasher
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
   - 
   - 
   - 

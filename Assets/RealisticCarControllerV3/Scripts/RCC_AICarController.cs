@@ -20,6 +20,7 @@ using System.Collections.Generic;
 [AddComponentMenu("BoneCracker Games/Realistic Car Controller/AI/RCC AI Car Controller")]
 public class RCC_AICarController : MonoBehaviour {
 
+    public static RCC_AICarController Instance;
     internal RCC_CarControllerV3 carController;     // Main RCC of this vehicle.
 
     public RCC_AIWaypointsContainer waypointsContainer;                 // Waypoints Container.
@@ -90,6 +91,11 @@ public class RCC_AICarController : MonoBehaviour {
 
     private void Awake() {
 
+
+        if (!Instance)
+        {
+            Instance = this;
+        }
         // Getting main controller and enabling external controller.
         carController = GetComponent<RCC_CarControllerV3>();
         carController.externalController = true;
@@ -116,6 +122,7 @@ public class RCC_AICarController : MonoBehaviour {
         detector = detectorGO.gameObject.AddComponent<SphereCollider>();
         detector.isTrigger = true;
         detector.radius = 10f;
+
 
     }
 

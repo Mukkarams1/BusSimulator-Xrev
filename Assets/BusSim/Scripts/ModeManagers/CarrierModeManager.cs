@@ -31,6 +31,11 @@ public class CarrierModeManager : MonoBehaviour
     bool isLevelComplete;
 
     public RCC_CarControllerV3 carController;
+<<<<<<< Updated upstream
+=======
+    public GameObject firework;
+    public GameObject SuccessAnimation;
+>>>>>>> Stashed changes
     private void Start()
     {
      timerText.gameObject.SetActive(false);
@@ -101,15 +106,47 @@ public class CarrierModeManager : MonoBehaviour
             {
             var stop = obj.transform.GetChild(0).transform;
                 DropOff(stop);
+<<<<<<< Updated upstream
                 EventManager.LevelCompleted();
                 isLevelComplete = true;
                 //level completed successfully
                 ShowLevelCompletionPanel(true);
+=======
+          //  StartCoroutine(SuccessAnmationhActivator(true,2f));
+           // StartCoroutine(SuccessAnmationhActivator(false, 6f));
+            //SuccessAnimation.SetActive(true);
+            //Invoke("DisableSuccessAnmation", 6f);
+             DoFireWorks(obj);
+>>>>>>> Stashed changes
 
-            }
+        }
          
     }
+    void DeactivateSuccessAnmation()
+    {
+        SuccessAnimation.SetActive(false);
+    }
 
+<<<<<<< Updated upstream
+=======
+    //IEnumerator SuccessAnmationhActivator(bool isActivated, float checktime)
+    //{
+    //    yield return new WaitForSeconds(checktime);
+    //    SuccessAnimation.SetActive(isActivated);
+    //}
+    private void DoFireWorks(Transform parent)
+    {
+       var fireworkobj = Instantiate(firework, parent.position , Quaternion.identity);
+        StartCoroutine(destroyFireWorks(fireworkobj));
+        
+    }
+    IEnumerator destroyFireWorks(GameObject firework)
+    {
+        yield return new WaitForSeconds(5f);
+        Destroy(firework);
+    }
+
+>>>>>>> Stashed changes
     private void DropOff(Transform obj)
     {
         int spawnCount = UnityEngine.Random.Range(1, 3);
@@ -139,20 +176,64 @@ public class CarrierModeManager : MonoBehaviour
             var riderGameObject = Instantiate(Riders[randomrider]);
             riderGameObject.transform.position = obj.transform.position;
             int randomSpread = UnityEngine.Random.Range(0, 10);
+<<<<<<< Updated upstream
             riderGameObject.transform.position += new Vector3(randomSpread, 0, randomSpread);
             StartCoroutine(movetobus(carController.gameObject.transform, riderGameObject.transform));
+=======
+            riderGameObject.transform.position += new Vector3(randomSpread, 0, 0);
+            StartCoroutine(movetobus(carController.gameObject.transform, riderGameObject.transform,true));
+>>>>>>> Stashed changes
         }
 
     }
     IEnumerator movetobus(Transform buspos , Transform objToMove)
     {
         
+<<<<<<< Updated upstream
         objToMove.transform.DOMove(buspos.transform.position, 5f).OnComplete(() => {
             Destroy(objToMove.gameObject);
             carController.rigid.isKinematic = false;
         });
         yield return null;
     }
+=======
+        int randomspeed = UnityEngine.Random.Range(2, 5);
+        objToMove.transform.LookAt(buspos);
+        objToMove.transform.DOMove(buspos.transform.position, randomspeed).OnComplete(() => {
+            Destroy(objToMove.gameObject);
+            if(ispick)
+            {
+                ridertobepicked++;
+                if(ridertobepicked == pickedRiderCount)
+                {
+                    carController.rigid.isKinematic = false;
+                }
+                
+            }
+            else if(!ispick)
+            {
+                pickedRiderCount--;
+                if(pickedRiderCount == 0)
+                {
+                    carController.rigid.isKinematic = false;
+                    EventManager.LevelCompleted();
+                    isLevelComplete = true;
+                    SuccessAnimation.SetActive(true);
+                    Invoke("DeactivateSuccessAnmation", 4f);
+                    //level completed successfully
+                    StartCoroutine(showlevelCompletionAfterDelay());
+                }
+              
+            }
+        });
+        yield return null;
+    }
+    IEnumerator showlevelCompletionAfterDelay()
+    {
+        yield return new WaitForSeconds(4f);
+        ShowLevelCompletionPanel(true);
+    }
+>>>>>>> Stashed changes
     private void ResetVariables()
     {
         currentStopNumber = 0;

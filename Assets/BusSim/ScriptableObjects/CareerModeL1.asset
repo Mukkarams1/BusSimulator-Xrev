@@ -15,9 +15,21 @@ MonoBehaviour:
   levelNumber: 1
   objective: Pick People from airport and drop at hotel
   levelMode: 1
+<<<<<<< Updated upstream:Assets/BusSim/ScriptableObjects/CareerModeL1.asset
   LevelDataGameObject: {fileID: 3539647095710364201, guid: 952a211c23c9755409a788f25381c5de, type: 3}
+=======
+  LevelDataGameObject: {fileID: 8071382899820066386, guid: 9a7ecce7e92bce841ba355fda996ac0c, type: 3}
+>>>>>>> Stashed changes:Assets/BusSim/ScriptableObjects/CarrerMode/CareerModeL1.asset
   timeInSec: 60
   allowedHits: 0
   hitSpeed: 40
   starWinTimer: 50
+<<<<<<< Updated upstream:Assets/BusSim/ScriptableObjects/CareerModeL1.asset
   starWon: 0
+=======
+  StarWinningConditions:
+  - Complete Round in 50sec
+  - Hit Max Speed of 40
+  - Complete the Round
+  levelWeather: 1
+>>>>>>> Stashed changes:Assets/BusSim/ScriptableObjects/CarrerMode/CareerModeL1.asset

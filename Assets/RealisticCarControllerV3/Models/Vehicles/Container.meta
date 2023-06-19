@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream:Assets/RealisticCarControllerV3/Models/Vehicles/Container.meta
 guid: a0f694334494edb44a58a3284dcc0873
+=======
+guid: 47aaffa51411339478552b8522addb7c
+>>>>>>> Stashed changes:Assets/ExternalDependencyManager/Editor.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

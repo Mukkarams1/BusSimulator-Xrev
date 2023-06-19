@@ -48,5 +48,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 6cadeb12984823945ba0fa3b783ca1bb, type: 2}
   - {fileID: 11400000, guid: d070e86a5c804eb4d8f101a195defff4, type: 2}
   busPrefabsList:
+<<<<<<< Updated upstream
   - {fileID: 859809402377447911, guid: d94ec04615ca3cc4e883400989180fbf, type: 3}
   - {fileID: 859809402377447911, guid: 5ff71248622b0124aa5a8b025441d776, type: 3}
+=======
+  - {fileID: 6503617452099024780, guid: 8488c48fc2b7d834db7cbe68f2b6245d, type: 3}
+  - {fileID: 6503617452099024780, guid: 8488c48fc2b7d834db7cbe68f2b6245d, type: 3}
+  starWinningCondtions: []
+  currentLevelObject: {fileID: 0}
+>>>>>>> Stashed changes

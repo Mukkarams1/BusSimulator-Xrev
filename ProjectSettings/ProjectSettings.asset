@@ -163,10 +163,14 @@ PlayerSettings:
     Standalone: 0
     iPhone: 0
     tvOS: 0
-  overrideDefaultApplicationIdentifier: 0
+  overrideDefaultApplicationIdentifier: 1
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 22
+<<<<<<< Updated upstream
   AndroidTargetSdkVersion: 0
+=======
+  AndroidTargetSdkVersion: 30
+>>>>>>> Stashed changes
   AndroidPreferredInstallLocation: 1
   aotOptions: 
   stripEngineCode: 1
@@ -714,6 +718,7 @@ PlayerSettings:
   switchNetworkInterfaceManagerInitializeEnabled: 1
   switchPlayerConnectionEnabled: 1
   switchUseNewStyleFilepaths: 1
+  switchUseLegacyFmodPriorities: 1
   switchUseMicroSleepForYield: 1
   switchEnableRamDiskSupport: 0
   switchMicroSleepForYieldTime: 25
@@ -820,8 +825,27 @@ PlayerSettings:
   webGLMemoryGeometricGrowthStep: 0.2
   webGLMemoryGeometricGrowthCap: 96
   scriptingDefineSymbols:
+<<<<<<< Updated upstream
     Android: BCG_RCC
     Standalone: BCG_RCC
+=======
+    Android: BCG_RCC;USE_ADMOB;USE_ADMOB_PATCH;CROSS_PLATFORM_INPUT;MOBILE_INPUT;USE_GLEY_TRAFFIC
+    EmbeddedLinux: BCG_RCC
+    GameCoreScarlett: BCG_RCC
+    GameCoreXboxOne: BCG_RCC
+    LinuxHeadlessSimulation: BCG_RCC
+    Lumin: BCG_RCC
+    Nintendo Switch: BCG_RCC
+    PS4: BCG_RCC
+    PS5: BCG_RCC
+    Stadia: BCG_RCC
+    Standalone: BCG_RCC;CROSS_PLATFORM_INPUT
+    WebGL: BCG_RCC
+    Windows Store Apps: CROSS_PLATFORM_INPUT;BCG_RCC
+    XboxOne: BCG_RCC
+    iPhone: USE_ADMOB_PATCH;CROSS_PLATFORM_INPUT;MOBILE_INPUT;BCG_RCC
+    tvOS: BCG_RCC
+>>>>>>> Stashed changes
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
@@ -897,7 +921,13 @@ PlayerSettings:
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
   cloudServicesEnabled:
+    Build: 0
+    Collab: 0
+    Game Performance: 0
+    Purchasing: 1
+    UDP: 0
     UNet: 1
+    Unity Ads: 0
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -910,12 +940,18 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
+<<<<<<< Updated upstream
   activeInputHandler: 1
   cloudProjectId: 
+=======
+  activeInputHandler: 2
+  windowsGamepadBackendHint: 0
+  cloudProjectId: f34208ce-5885-4d05-9de2-a5eed82ec82e
+>>>>>>> Stashed changes
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: BusSimulator
+  organizationId: mirza_sheraz
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 

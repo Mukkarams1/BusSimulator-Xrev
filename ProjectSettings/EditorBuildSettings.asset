@@ -6,12 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/BusSim/Scenes/MainMenu.unity
+    path: Assets/ADstuff/Scene/Startup.unity
+    guid: 944d7b7b9135d9f4c809c6eee9bdf13f
+  - enabled: 1
+    path: Assets/!Mywork/Scenes/MainMenu.unity
     guid: 1b9097f08d4b6384db448bdbfe6c094b
   - enabled: 1
-    path: Assets/BusSim/Scenes/CareerMode.unity
+    path: Assets/!Mywork/Scenes/CareerMode.unity
     guid: 7fec6be53c490624eb8df8da91b4cd80
   - enabled: 1
+<<<<<<< Updated upstream
     path: Assets/BusSim/Scenes/HighwayMode.unity
     guid: 18f3b118d26e4834b8433e61916c9719
   - enabled: 1
@@ -19,14 +23,21 @@ EditorBuildSettings:
     guid: 81917a17c6947fa4c994b7912dc3101b
   - enabled: 1
     path: Assets/BusSim/Scenes/ParkingMode.unity
+=======
+    path: Assets/!Mywork/Scenes/ParkingMode.unity
+>>>>>>> Stashed changes
     guid: 63bc663397462d446a768b0d416502d0
   - enabled: 1
-    path: Assets/BusSim/Scenes/ObstacleMode.unity
+    path: Assets/!Mywork/Scenes/ObstacleMode.unity
     guid: 34ba9cf75e679da45a3c25eeb2be4df9
   - enabled: 1
+<<<<<<< Updated upstream
     path: Assets/BusSim/Scenes/RacingMode.unity
     guid: 304fe2f7c08f1334fb935ba22481cd5f
   - enabled: 1
     path: Assets/BusSim/Scenes/FreeMode.unity
+=======
+    path: Assets/!Mywork/Scenes/FreeMode.unity
+>>>>>>> Stashed changes
     guid: 46f4681caf291fb47aa106a0fbf5cf02
   m_configObjects: {}

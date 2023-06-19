@@ -15,7 +15,11 @@ MonoBehaviour:
   levelNumber: 2
   objective: Pick People from hotel and drop at other hotel
   levelMode: 1
+<<<<<<< Updated upstream:Assets/BusSim/ScriptableObjects/CareerModeL2.asset
   LevelDataGameObject: {fileID: 1082691917793254847, guid: a19f8a29e5f18b44f88f9858ac66f192, type: 3}
+=======
+  LevelDataGameObject: {fileID: 2759994319964080525, guid: 19bf9b4e0021f494ba905556b8cea917, type: 3}
+>>>>>>> Stashed changes:Assets/BusSim/ScriptableObjects/CarrerMode/CareerModeL2.asset
   timeInSec: 60
   allowedHits: 0
   hitSpeed: 50

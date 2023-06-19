@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream:Assets/RealisticCarControllerV3/Models/Vehicles/Bus Trailer/Mat.meta
 guid: da06ba2883829554586be9086624aa03
+=======
+guid: 3d543f5d2e6978b4080dfcf459dccb5d
+>>>>>>> Stashed changes:Assets/ExternalDependencyManager/Editor/1.2.175.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

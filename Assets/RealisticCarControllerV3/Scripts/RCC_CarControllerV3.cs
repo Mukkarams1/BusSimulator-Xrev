@@ -266,11 +266,16 @@ public class RCC_CarControllerV3 : RCC_Core {
     private AudioClip[] blowClip { get { return RCC_Settings.Instance.blowoutClip; } }
 
     // Min / Max sound pitches and volumes.
-    [Range(0f, 1f)] public float minEngineSoundPitch = .75f;
-    [Range(1f, 2f)] public float maxEngineSoundPitch = 1.75f;
-    [Range(0f, 1f)] public float minEngineSoundVolume = .05f;
-    [Range(0f, 1f)] public float maxEngineSoundVolume = .85f;
-    [Range(0f, 1f)] public float idleEngineSoundVolume = .85f;
+    //[Range(0f, 1f)] public float minEngineSoundPitch = .75f;
+    //[Range(1f, 2f)] public float maxEngineSoundPitch = 1.75f;
+    //[Range(0f, 1f)] public float minEngineSoundVolume = .05f;
+    //[Range(0f, 1f)] public float maxEngineSoundVolume = .85f;
+    //[Range(0f, 1f)] public float idleEngineSoundVolume = .85f;
+    [Range(0f, 1f)] public float minEngineSoundPitch = 1f;
+    [Range(1f, 2f)] public float maxEngineSoundPitch = 2f;
+    [Range(0f, 1f)] public float minEngineSoundVolume = 1f;
+    [Range(0f, 1f)] public float maxEngineSoundVolume = 1f;
+    [Range(0f, 1f)] public float idleEngineSoundVolume = 1f;
 
     // Positions of the created audio sources.
     public Vector3 engineSoundPosition = new Vector3(0f, 0f, 1.5f);
@@ -1654,15 +1659,24 @@ public class RCC_CarControllerV3 : RCC_Core {
 
             if (!reversingSound.isPlaying)
                 reversingSound.Play();
-
-            reversingSound.volume = Mathf.Lerp(0f, 1f, speed / gears[0].maxSpeed);
+            if (BusController.Instance != null)
+            {
+                BusController.Instance.ReverseSound.enabled = true;
+            }
+            
+            //reversingSound.volume = Mathf.Lerp(0f, 1f, speed / gears[0].maxSpeed);
+            reversingSound.volume = 1f;
             reversingSound.pitch = reversingSound.volume;
 
         } else {
 
             if (reversingSound.isPlaying)
                 reversingSound.Stop();
-
+            if (BusController.Instance != null)
+            {
+                BusController.Instance.ReverseSound.enabled = false;
+            }
+            
             reversingSound.volume = 0f;
             reversingSound.pitch = 0f;
 
